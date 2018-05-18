@@ -1,0 +1,2 @@
+# Ignore KiCad's backup files:
+*.bak

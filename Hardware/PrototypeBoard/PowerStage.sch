@@ -1,0 +1,337 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:PrototypeBoard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IRF8721PBF-1 Q5
+U 1 1 56C10AD6
+P 6850 2450
+AR Path="/56D57CF9/56D58A10/56C10AD6" Ref="Q5"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C10AD6" Ref="Q11"  Part="1" 
+F 0 "Q5" H 7200 2550 50  0000 L CNN
+F 1 "IRF8721PBF-1" H 7200 2450 50  0000 L CNN
+F 2 "Power_Integrations:SO-8" H 7200 2350 50  0000 L CNN
+F 3 "" H 6750 2450 50  0000 L CNN
+	1    6850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRF8721PBF-1 Q6
+U 1 1 56C10ADD
+P 6850 3600
+AR Path="/56D57CF9/56D58A10/56C10ADD" Ref="Q6"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C10ADD" Ref="Q12"  Part="1" 
+F 0 "Q6" H 7200 3700 50  0000 L CNN
+F 1 "IRF8721PBF-1" H 7200 3600 50  0000 L CNN
+F 2 "Power_Integrations:SO-8" H 7200 3500 50  0000 L CNN
+F 3 "" H 6750 3600 50  0000 L CNN
+	1    6850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRF8721PBF-1 Q4
+U 1 1 56C10AE4
+P 5350 3600
+AR Path="/56D57CF9/56D58A10/56C10AE4" Ref="Q4"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C10AE4" Ref="Q10"  Part="1" 
+F 0 "Q4" H 5700 3700 50  0000 L CNN
+F 1 "IRF8721PBF-1" H 5700 3600 50  0000 L CNN
+F 2 "Power_Integrations:SO-8" H 5700 3500 50  0000 L CNN
+F 3 "" H 5250 3600 50  0000 L CNN
+	1    5350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRF8721PBF-1 Q3
+U 1 1 56C10AEB
+P 5350 2450
+AR Path="/56D57CF9/56D58A10/56C10AEB" Ref="Q3"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C10AEB" Ref="Q9"  Part="1" 
+F 0 "Q3" H 5700 2550 50  0000 L CNN
+F 1 "IRF8721PBF-1" H 5700 2450 50  0000 L CNN
+F 2 "Power_Integrations:SO-8" H 5700 2350 50  0000 L CNN
+F 3 "" H 5250 2450 50  0000 L CNN
+	1    5350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRF8721PBF-1 Q1
+U 1 1 56C10AF2
+P 3850 2450
+AR Path="/56D57CF9/56D58A10/56C10AF2" Ref="Q1"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C10AF2" Ref="Q7"  Part="1" 
+F 0 "Q1" H 4200 2550 50  0000 L CNN
+F 1 "IRF8721PBF-1" H 4200 2450 50  0000 L CNN
+F 2 "Power_Integrations:SO-8" H 4200 2350 50  0000 L CNN
+F 3 "" H 3750 2450 50  0000 L CNN
+	1    3850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRF8721PBF-1 Q2
+U 1 1 56C10AF9
+P 3850 3600
+AR Path="/56D57CF9/56D58A10/56C10AF9" Ref="Q2"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C10AF9" Ref="Q8"  Part="1" 
+F 0 "Q2" H 4200 3700 50  0000 L CNN
+F 1 "IRF8721PBF-1" H 4200 3600 50  0000 L CNN
+F 2 "Power_Integrations:SO-8" H 4200 3500 50  0000 L CNN
+F 3 "" H 3750 3600 50  0000 L CNN
+	1    3850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR073
+U 1 1 56C10B12
+P 3850 3800
+AR Path="/56D57CF9/56D58A10/56C10B12" Ref="#PWR073"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C10B12" Ref="#PWR098"  Part="1" 
+F 0 "#PWR073" H 3850 3600 50  0001 C CNN
+F 1 "GNDPWR" H 3850 3670 50  0000 C CNN
+F 2 "" H 3850 3750 50  0000 C CNN
+F 3 "" H 3850 3750 50  0000 C CNN
+	1    3850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR074
+U 1 1 56C10B18
+P 5350 3800
+AR Path="/56D57CF9/56D58A10/56C10B18" Ref="#PWR074"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C10B18" Ref="#PWR099"  Part="1" 
+F 0 "#PWR074" H 5350 3600 50  0001 C CNN
+F 1 "GNDPWR" H 5350 3670 50  0000 C CNN
+F 2 "" H 5350 3750 50  0000 C CNN
+F 3 "" H 5350 3750 50  0000 C CNN
+	1    5350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR075
+U 1 1 56C10B1E
+P 6850 3800
+AR Path="/56D57CF9/56D58A10/56C10B1E" Ref="#PWR075"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C10B1E" Ref="#PWR0100"  Part="1" 
+F 0 "#PWR075" H 6850 3600 50  0001 C CNN
+F 1 "GNDPWR" H 6850 3670 50  0000 C CNN
+F 2 "" H 6850 3750 50  0000 C CNN
+F 3 "" H 6850 3750 50  0000 C CNN
+	1    6850 3800
+	1    0    0    -1  
+$EndComp
+Text HLabel 3950 2950 2    60   Output ~ 0
+Power_Phase_U
+Text HLabel 5450 2950 2    60   Output ~ 0
+Power_Phase_V
+Text HLabel 3550 2500 0    60   Input ~ 0
+Gate_U_H
+Text HLabel 3550 3650 0    60   Input ~ 0
+Gate_U_L
+Text HLabel 5050 2500 0    60   Input ~ 0
+Gate_V_H
+Text HLabel 5050 3650 0    60   Input ~ 0
+Gate_V_L
+Text HLabel 6550 2500 0    60   Input ~ 0
+Gate_W_H
+Text HLabel 6550 3650 0    60   Input ~ 0
+Gate_W_L
+Wire Wire Line
+	3850 2250 4150 2250
+Connection ~ 3950 2250
+Connection ~ 4050 2250
+Wire Wire Line
+	3850 2650 3850 3400
+Wire Wire Line
+	3550 2650 4050 2650
+Connection ~ 3950 2650
+Wire Wire Line
+	3850 3400 4150 3400
+Connection ~ 3950 3400
+Connection ~ 4050 3400
+Wire Wire Line
+	5350 2650 5350 3400
+Wire Wire Line
+	5350 3400 5650 3400
+Connection ~ 5450 3400
+Connection ~ 5550 3400
+Wire Wire Line
+	5050 2650 5550 2650
+Connection ~ 5450 2650
+Wire Wire Line
+	3550 3800 4050 3800
+Connection ~ 3950 3800
+Wire Wire Line
+	5050 3800 5550 3800
+Connection ~ 5450 3800
+Wire Wire Line
+	6850 2250 7150 2250
+Connection ~ 6950 2250
+Connection ~ 7050 2250
+Wire Wire Line
+	6850 2650 6850 3400
+Wire Wire Line
+	6850 3400 7150 3400
+Connection ~ 6950 3400
+Connection ~ 7050 3400
+Wire Wire Line
+	6550 2650 7050 2650
+Connection ~ 6950 2650
+Wire Wire Line
+	6550 3800 7050 3800
+Connection ~ 6950 3800
+Wire Wire Line
+	5350 2250 5650 2250
+Connection ~ 5450 2250
+Connection ~ 5550 2250
+Connection ~ 5350 2250
+Connection ~ 3850 2250
+Connection ~ 3850 3400
+Connection ~ 5350 3400
+Connection ~ 5350 3800
+Connection ~ 3850 3800
+Connection ~ 6850 3800
+Connection ~ 6850 3400
+Connection ~ 6850 2250
+Connection ~ 5350 2650
+Connection ~ 3850 2650
+Connection ~ 6850 2650
+Wire Wire Line
+	3850 2950 3950 2950
+Connection ~ 3850 2950
+Wire Wire Line
+	5350 2950 5450 2950
+Connection ~ 5350 2950
+Wire Wire Line
+	6850 2950 6950 2950
+Connection ~ 6850 2950
+Text HLabel 3550 3800 0    60   Input ~ 0
+Source_U_L
+Text HLabel 3550 2650 0    60   Input ~ 0
+Source_U_H
+Text HLabel 5050 2650 0    60   Input ~ 0
+Source_V_H
+Text HLabel 5050 3800 0    60   Input ~ 0
+Source_V_L
+Text HLabel 6550 2650 0    60   Input ~ 0
+Source_W_H
+Text HLabel 6550 3800 0    60   Input ~ 0
+Source_W_L
+$Comp
+L +BATT #PWR076
+U 1 1 56C3D45F
+P 5350 2250
+AR Path="/56D57CF9/56D58A10/56C3D45F" Ref="#PWR076"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C3D45F" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR076" H 5350 2100 50  0001 C CNN
+F 1 "+BATT" H 5350 2390 50  0000 C CNN
+F 2 "" H 5350 2250 50  0000 C CNN
+F 3 "" H 5350 2250 50  0000 C CNN
+	1    5350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR077
+U 1 1 56C3D47F
+P 3850 2250
+AR Path="/56D57CF9/56D58A10/56C3D47F" Ref="#PWR077"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C3D47F" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR077" H 3850 2100 50  0001 C CNN
+F 1 "+BATT" H 3850 2390 50  0000 C CNN
+F 2 "" H 3850 2250 50  0000 C CNN
+F 3 "" H 3850 2250 50  0000 C CNN
+	1    3850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR078
+U 1 1 56C3D49F
+P 6850 2250
+AR Path="/56D57CF9/56D58A10/56C3D49F" Ref="#PWR078"  Part="1" 
+AR Path="/56D865C0/56D58A10/56C3D49F" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR078" H 6850 2100 50  0001 C CNN
+F 1 "+BATT" H 6850 2390 50  0000 C CNN
+F 2 "" H 6850 2250 50  0000 C CNN
+F 3 "" H 6850 2250 50  0000 C CNN
+	1    6850 2250
+	1    0    0    -1  
+$EndComp
+Text HLabel 6950 2950 2    60   Output ~ 0
+Power_Phase_W
+$Comp
+L TEST TP?
+U 1 1 5B008CF2
+P 3850 2950
+F 0 "TP?" H 3850 3250 50  0000 C BNN
+F 1 "PhaseU" H 3850 3200 50  0000 C CNN
+F 2 "" H 3850 2950 50  0001 C CNN
+F 3 "" H 3850 2950 50  0001 C CNN
+	1    3850 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B008D58
+P 5350 2950
+F 0 "TP?" H 5350 3250 50  0000 C BNN
+F 1 "PhaseV" H 5350 3200 50  0000 C CNN
+F 2 "" H 5350 2950 50  0001 C CNN
+F 3 "" H 5350 2950 50  0001 C CNN
+	1    5350 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B008DA6
+P 6850 2950
+F 0 "TP?" H 6850 3250 50  0000 C BNN
+F 1 "PhaseW" H 6850 3200 50  0000 C CNN
+F 2 "" H 6850 2950 50  0001 C CNN
+F 3 "" H 6850 2950 50  0001 C CNN
+	1    6850 2950
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

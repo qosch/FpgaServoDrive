@@ -1,0 +1,273 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:PrototypeBoard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 6300 1800 1300 2700
+U 56D57CF9
+F0 "MotorModule" 60
+F1 "MotorModule.sch" 60
+F2 "~PwmUH" I L 6300 2300 60 
+F3 "PwmUL" I L 6300 2400 60 
+F4 "PwmVL" I L 6300 2600 60 
+F5 "~PwmVH" I L 6300 2500 60 
+F6 "PwmWL" I L 6300 2800 60 
+F7 "~PwmWH" I L 6300 2700 60 
+F8 "~CurrentSensSpiCs" I L 6300 3000 60 
+F9 "CurrentSensSpiSclk" I L 6300 3100 60 
+F10 "GateDriverEna" I L 6300 1900 60 
+F11 "~GateDriverErr1" O L 6300 2000 60 
+F12 "~GateDriverErr2" O L 6300 2100 60 
+F13 "~EncoderSpiCs" I L 6300 3600 60 
+F14 "EncoderSpiSclk" I L 6300 3700 60 
+F15 "EncoderSpiMiso" O L 6300 3800 60 
+F16 "EncoderSpiMosi" I L 6300 3900 60 
+F17 "~AdcSpiCs" I L 6300 4100 60 
+F18 "AdcSpiSclk" I L 6300 4200 60 
+F19 "AdcSpiMiso" O L 6300 4300 60 
+F20 "AdcSpiMosi" I L 6300 4400 60 
+F21 "CurrentSensSpiDoutU" O L 6300 3200 60 
+F22 "CurrentSensSpiDoutV" O L 6300 3300 60 
+F23 "CurrentSensSpiDoutW" O L 6300 3400 60 
+$EndSheet
+$Sheet
+S 4500 1800 1300 2700
+U 5AFD76B5
+F0 "MainConnector" 60
+F1 "MainConnector.sch" 60
+F2 "GateDriverEna" O R 5800 1900 60 
+F3 "~GateDriverErr1" I R 5800 2000 60 
+F4 "~GateDriverErr2" I R 5800 2100 60 
+F5 "~PwmUH" O R 5800 2300 60 
+F6 "PwmUL" O R 5800 2400 60 
+F7 "~PwmVH" O R 5800 2500 60 
+F8 "PwmVL" O R 5800 2600 60 
+F9 "~PwmWH" O R 5800 2700 60 
+F10 "PwmWL" O R 5800 2800 60 
+F11 "~CurrentSensSpiCs" O R 5800 3000 60 
+F12 "CurrentSensSpiSclk" O R 5800 3100 60 
+F13 "CurrentSensSpiDoutU" I R 5800 3200 60 
+F14 "CurrentSensSpiDoutV" I R 5800 3300 60 
+F15 "CurrentSensSpiDoutW" I R 5800 3400 60 
+F16 "~EncoderSpiCs" O R 5800 3600 60 
+F17 "EncoderSpiSclk" O R 5800 3700 60 
+F18 "EncoderSpiMiso" I R 5800 3800 60 
+F19 "EncoderSpiMosi" O R 5800 3900 60 
+F20 "~AdcSpiCs" O R 5800 4100 60 
+F21 "AdcSpiSclk" O R 5800 4200 60 
+F22 "AdcSpiMiso" I R 5800 4300 60 
+F23 "AdcSpiMosi" O R 5800 4400 60 
+$EndSheet
+Wire Wire Line
+	5800 1900 6300 1900
+Wire Wire Line
+	5800 2000 6300 2000
+Wire Wire Line
+	5800 2100 6300 2100
+Wire Wire Line
+	5800 2300 6300 2300
+Wire Wire Line
+	5800 2400 6300 2400
+Wire Wire Line
+	5800 2500 6300 2500
+Wire Wire Line
+	5800 2600 6300 2600
+Wire Wire Line
+	5800 2700 6300 2700
+Wire Wire Line
+	5800 2800 6300 2800
+Wire Wire Line
+	5800 3000 6300 3000
+Wire Wire Line
+	5800 3100 6300 3100
+Wire Wire Line
+	5800 3200 6300 3200
+Wire Wire Line
+	5800 3300 6300 3300
+Wire Wire Line
+	5800 3400 6300 3400
+Wire Wire Line
+	5800 3600 6300 3600
+Wire Wire Line
+	5800 3700 6300 3700
+Wire Wire Line
+	5800 3800 6300 3800
+Wire Wire Line
+	5800 3900 6300 3900
+Wire Wire Line
+	5800 4100 6300 4100
+Wire Wire Line
+	5800 4200 6300 4200
+Wire Wire Line
+	5800 4300 6300 4300
+Wire Wire Line
+	5800 4400 6300 4400
+$Comp
+L +3.3V #PWR?
+U 1 1 5B002D02
+P 9800 1600
+F 0 "#PWR?" H 9800 1450 50  0001 C CNN
+F 1 "+3.3V" H 9800 1740 50  0000 C CNN
+F 2 "" H 9800 1600 50  0001 C CNN
+F 3 "" H 9800 1600 50  0001 C CNN
+	1    9800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR?
+U 1 1 5B002E1E
+P 10400 1600
+F 0 "#PWR?" H 10400 1450 50  0001 C CNN
+F 1 "+BATT" H 10400 1740 50  0000 C CNN
+F 2 "" H 10400 1600 50  0001 C CNN
+F 3 "" H 10400 1600 50  0001 C CNN
+	1    10400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5B002F3A
+P 9800 2350
+F 0 "D?" H 9800 2450 50  0000 C CNN
+F 1 "3.3V" H 9800 2250 50  0000 C CNN
+F 2 "" H 9800 2350 50  0001 C CNN
+F 3 "" H 9800 2350 50  0001 C CNN
+	1    9800 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5B00306C
+P 10400 2350
+F 0 "D?" H 10400 2450 50  0000 C CNN
+F 1 "5.5-32V" H 10400 2250 50  0000 C CNN
+F 2 "" H 10400 2350 50  0001 C CNN
+F 3 "" H 10400 2350 50  0001 C CNN
+	1    10400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B0031A0
+P 9800 2600
+F 0 "#PWR?" H 9800 2350 50  0001 C CNN
+F 1 "GND" H 9800 2450 50  0000 C CNN
+F 2 "" H 9800 2600 50  0001 C CNN
+F 3 "" H 9800 2600 50  0001 C CNN
+	1    9800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5B0032C0
+P 10400 2600
+F 0 "#PWR?" H 10400 2400 50  0001 C CNN
+F 1 "GNDPWR" H 10400 2470 50  0000 C CNN
+F 2 "" H 10400 2550 50  0001 C CNN
+F 3 "" H 10400 2550 50  0001 C CNN
+	1    10400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2500 9800 2600
+Wire Wire Line
+	10400 2500 10400 2600
+Wire Wire Line
+	9800 1600 9800 1800
+Wire Wire Line
+	10400 1600 10400 1800
+$Comp
+L TEST TP?
+U 1 1 5B003DB5
+P 10400 1700
+F 0 "TP?" H 10400 2000 50  0000 C BNN
+F 1 "5.5-32V" H 10400 1950 50  0000 C CNN
+F 2 "" H 10400 1700 50  0001 C CNN
+F 3 "" H 10400 1700 50  0001 C CNN
+	1    10400 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B003EE3
+P 9800 1700
+F 0 "TP?" H 9800 2000 50  0000 C BNN
+F 1 "3.3V" H 9800 1950 50  0000 C CNN
+F 2 "" H 9800 1700 50  0001 C CNN
+F 3 "" H 9800 1700 50  0001 C CNN
+	1    9800 1700
+	0    1    1    0   
+$EndComp
+Connection ~ 10400 1700
+Connection ~ 9800 1700
+$Comp
+L R R?
+U 1 1 5AFEBD88
+P 9800 1950
+F 0 "R?" V 9880 1950 50  0000 C CNN
+F 1 "220" V 9800 1950 50  0000 C CNN
+F 2 "" V 9730 1950 50  0001 C CNN
+F 3 "" H 9800 1950 50  0001 C CNN
+	1    9800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AFEC09B
+P 10400 1950
+F 0 "R?" V 10480 1950 50  0000 C CNN
+F 1 "6.8k" V 10400 1950 50  0000 C CNN
+F 2 "" V 10330 1950 50  0001 C CNN
+F 3 "" H 10400 1950 50  0001 C CNN
+	1    10400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2100 9800 2200
+Wire Wire Line
+	10400 2100 10400 2200
+$EndSCHEMATC
