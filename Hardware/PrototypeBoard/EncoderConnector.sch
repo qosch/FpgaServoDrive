@@ -79,7 +79,7 @@ F 3 "" H 6300 2450 50  0001 C CNN
 	1    6300 2450
 	0    1    1    0   
 $EndComp
-Text HLabel 4100 2250 0    60   Input ~ 0
+Text HLabel 4600 2250 2    60   Input ~ 0
 SCLK
 Text HLabel 4100 2550 0    60   Input ~ 0
 ~CS
@@ -87,7 +87,7 @@ Text HLabel 7450 2450 0    60   Output ~ 0
 MISO
 Text HLabel 7450 2150 0    60   Input ~ 0
 MOSI
-Text HLabel 4600 2250 2    60   Output ~ 0
+Text HLabel 4100 2250 0    60   Output ~ 0
 HALL_A
 Text HLabel 4600 2550 2    60   Output ~ 0
 HALL_B
