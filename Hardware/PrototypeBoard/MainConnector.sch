@@ -705,4 +705,8 @@ Wire Wire Line
 	5800 3000 5800 3100
 Text Notes 6000 3700 0    60   ~ 0
 place capacitors \nclose connector
+Text Label 5700 2300 0    60   ~ 0
+PowerIn
+Text Label 4900 2600 0    60   ~ 0
+3V3in
 $EndSCHEMATC
