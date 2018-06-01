@@ -162,7 +162,7 @@ U 1 1 5AFF16A3
 P 5300 2300
 F 0 "TP31" H 5300 2600 50  0000 C BNN
 F 1 "EncSclk/HallA" H 5300 2550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 5300 2300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5300 2300 50  0001 C CNN
 F 3 "" H 5300 2300 50  0001 C CNN
 	1    5300 2300
 	1    0    0    -1  
@@ -173,7 +173,7 @@ U 1 1 5AFF1700
 P 5300 2500
 F 0 "TP32" H 5300 2800 50  0000 C BNN
 F 1 "!EncCs/HallB" H 5300 2750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 5300 2500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5300 2500 50  0001 C CNN
 F 3 "" H 5300 2500 50  0001 C CNN
 	1    5300 2500
 	-1   0    0    1   
@@ -184,7 +184,7 @@ U 1 1 5AFF1757
 P 6900 2400
 F 0 "TP34" H 6900 2700 50  0000 C BNN
 F 1 "EncMiso/HallC" H 6900 2650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 6900 2400 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6900 2400 50  0001 C CNN
 F 3 "" H 6900 2400 50  0001 C CNN
 	1    6900 2400
 	-1   0    0    1   
@@ -195,7 +195,7 @@ U 1 1 5AFF17C5
 P 6900 2200
 F 0 "TP33" H 6900 2500 50  0000 C BNN
 F 1 "EncMosi/NC" H 6900 2450 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 6900 2200 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6900 2200 50  0001 C CNN
 F 3 "" H 6900 2200 50  0001 C CNN
 	1    6900 2200
 	1    0    0    -1  

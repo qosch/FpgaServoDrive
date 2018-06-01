@@ -148,7 +148,7 @@ U 1 1 5B008CF2
 P 3100 2900
 F 0 "TP3" H 3100 3200 50  0000 C BNN
 F 1 "PhaseU" H 3100 3150 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 3100 2900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3100 2900 50  0001 C CNN
 F 3 "" H 3100 2900 50  0001 C CNN
 	1    3100 2900
 	0    -1   -1   0   
@@ -159,7 +159,7 @@ U 1 1 5B008D58
 P 5300 2900
 F 0 "TP4" H 5300 3200 50  0000 C BNN
 F 1 "PhaseV" H 5300 3150 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 5300 2900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5300 2900 50  0001 C CNN
 F 3 "" H 5300 2900 50  0001 C CNN
 	1    5300 2900
 	0    -1   -1   0   
@@ -170,7 +170,7 @@ U 1 1 5B008DA6
 P 7500 2900
 F 0 "TP5" H 7500 3200 50  0000 C BNN
 F 1 "PhaseW" H 7500 3150 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 7500 2900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7500 2900 50  0001 C CNN
 F 3 "" H 7500 2900 50  0001 C CNN
 	1    7500 2900
 	0    -1   -1   0   
