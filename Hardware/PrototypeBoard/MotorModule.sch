@@ -152,17 +152,6 @@ F21 "Gate_V_H" I R 4600 4250 60
 F22 "Gate_U_H" O R 4600 3700 60 
 $EndSheet
 $Comp
-L Conn_01x03_Male J1
-U 1 1 5AFEE147
-P 10800 4400
-F 0 "J1" H 10800 4600 50  0000 C CNN
-F 1 "Motor" H 10800 4200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 10800 4400 50  0001 C CNN
-F 3 "" H 10800 4400 50  0001 C CNN
-	1    10800 4400
-	-1   0    0    -1  
-$EndComp
-$Comp
 L R R5
 U 1 1 5AFEF95E
 P 9700 4750
@@ -458,7 +447,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 5100 4800 5100
 Wire Wire Line
-	6450 3400 4700 3400
+	4700 3400 6500 3400
 Wire Wire Line
 	3050 3200 3250 3200
 Wire Wire Line
@@ -617,4 +606,15 @@ Wire Wire Line
 Connection ~ 9700 5300
 Connection ~ 10100 5300
 Connection ~ 10500 5300
+$Comp
+L Conn_01x03 J1
+U 1 1 5B23EBC2
+P 10800 4400
+F 0 "J1" H 10800 4600 50  0000 C CNN
+F 1 "Conn_01x03" H 10800 4200 50  0000 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MSTBA-G_03x5.08mm_Angled" H 10800 4400 50  0001 C CNN
+F 3 "" H 10800 4400 50  0001 C CNN
+	1    10800 4400
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

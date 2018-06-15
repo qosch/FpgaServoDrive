@@ -412,7 +412,7 @@ U 1 1 5AFEFB54
 P 5100 3900
 F 0 "TP27" H 5100 4200 50  0000 C BNN
 F 1 "Adc4" H 5100 4150 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5100 3900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 5100 3900 50  0001 C CNN
 F 3 "" H 5100 3900 50  0001 C CNN
 	1    5100 3900
 	-1   0    0    1   
@@ -423,7 +423,7 @@ U 1 1 5AFEFBCA
 P 6500 3900
 F 0 "TP28" H 6500 4200 50  0000 C BNN
 F 1 "Adc3" H 6500 4150 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6500 3900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 6500 3900 50  0001 C CNN
 F 3 "" H 6500 3900 50  0001 C CNN
 	1    6500 3900
 	-1   0    0    1   
@@ -434,7 +434,7 @@ U 1 1 5AFEFC22
 P 7900 3900
 F 0 "TP29" H 7900 4200 50  0000 C BNN
 F 1 "Adc2" H 7900 4150 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7900 3900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 7900 3900 50  0001 C CNN
 F 3 "" H 7900 3900 50  0001 C CNN
 	1    7900 3900
 	-1   0    0    1   
@@ -445,7 +445,7 @@ U 1 1 5AFEFC7D
 P 9300 3900
 F 0 "TP30" H 9300 4200 50  0000 C BNN
 F 1 "Adc1" H 9300 4150 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9300 3900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 9300 3900 50  0001 C CNN
 F 3 "" H 9300 3900 50  0001 C CNN
 	1    9300 3900
 	-1   0    0    1   
@@ -456,7 +456,7 @@ U 1 1 5AFF07FE
 P 2800 3100
 F 0 "TP25" H 2800 3400 50  0000 C BNN
 F 1 "AdcV" H 2800 3350 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2800 3100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 2800 3100 50  0001 C CNN
 F 3 "" H 2800 3100 50  0001 C CNN
 	1    2800 3100
 	1    0    0    -1  
@@ -467,7 +467,7 @@ U 1 1 5AFF0C2E
 P 2950 3800
 F 0 "TP26" H 2950 4100 50  0000 C BNN
 F 1 "~AdcCs" H 2950 4050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2950 3800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 2950 3800 50  0001 C CNN
 F 3 "" H 2950 3800 50  0001 C CNN
 	1    2950 3800
 	-1   0    0    1   
@@ -478,7 +478,7 @@ U 1 1 5AFF0D2B
 P 2700 3800
 F 0 "TP24" H 2700 4100 50  0000 C BNN
 F 1 "AdcSclk" H 2700 4050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2700 3800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 2700 3800 50  0001 C CNN
 F 3 "" H 2700 3800 50  0001 C CNN
 	1    2700 3800
 	-1   0    0    1   
@@ -489,7 +489,7 @@ U 1 1 5AFF0D86
 P 2450 3800
 F 0 "TP23" H 2450 4100 50  0000 C BNN
 F 1 "AdcMosi" H 2450 4050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2450 3800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 2450 3800 50  0001 C CNN
 F 3 "" H 2450 3800 50  0001 C CNN
 	1    2450 3800
 	-1   0    0    1   
@@ -500,7 +500,7 @@ U 1 1 5AFF0DE8
 P 2200 3800
 F 0 "TP22" H 2200 4100 50  0000 C BNN
 F 1 "AdcMiso" H 2200 4050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 3800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 2200 3800 50  0001 C CNN
 F 3 "" H 2200 3800 50  0001 C CNN
 	1    2200 3800
 	-1   0    0    1   
