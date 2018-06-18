@@ -326,8 +326,6 @@ Connection ~ 4400 4500
 Wire Wire Line
 	4400 2500 4300 2500
 Wire Wire Line
-	4300 2300 7300 2300
-Wire Wire Line
 	4300 2400 4400 2400
 Wire Wire Line
 	4300 4300 6000 4300
@@ -562,10 +560,10 @@ F 3 "" H 6500 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_TVS D8
+L D_TVS D9
 U 1 1 5B00D2A4
 P 7900 2550
-F 0 "D8" H 7900 2650 50  0000 C CNN
+F 0 "D9" H 7900 2650 50  0000 C CNN
 F 1 "30V" H 7900 2450 50  0000 C CNN
 F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 7900 2550 50  0001 C CNN
 F 3 "" H 7900 2550 50  0001 C CNN
@@ -709,4 +707,33 @@ Text Label 5700 2300 0    60   ~ 0
 PowerIn
 Text Label 4900 2600 0    60   ~ 0
 3V3in
+$Comp
+L D_TVS D8
+U 1 1 5B27A7EB
+P 7000 2450
+F 0 "D8" H 7000 2550 50  0000 C CNN
+F 1 "30V" H 7000 2350 50  0000 C CNN
+F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 7000 2450 50  0001 C CNN
+F 3 "" H 7000 2450 50  0001 C CNN
+	1    7000 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 2300 7300 2300
+Connection ~ 7000 2300
+$Comp
+L GNDPWR #PWR097
+U 1 1 5B27AA44
+P 7000 2650
+F 0 "#PWR097" H 7000 2450 50  0001 C CNN
+F 1 "GNDPWR" H 7000 2520 50  0000 C CNN
+F 2 "" H 7000 2600 50  0001 C CNN
+F 3 "" H 7000 2600 50  0001 C CNN
+	1    7000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2650 7000 2600
+Text Notes 6550 2150 0    60   ~ 0
+TVS diode at \nthe PowerIn net\nburns the fuse in case \nDC link voltage rises \nover 30V during \nregenerative breaking
 $EndSCHEMATC
