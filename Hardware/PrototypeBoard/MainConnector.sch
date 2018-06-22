@@ -74,7 +74,7 @@ Text HLabel 4500 4100 2    60   Input ~ 0
 AdcSpiMiso
 Text HLabel 4500 4200 2    60   Output ~ 0
 AdcSpiMosi
-Text HLabel 3600 3400 0    60   Output ~ 0
+Text HLabel 3600 3300 0    60   Output ~ 0
 ~CurrentSensSpiCs
 Text HLabel 4500 2800 2    60   Output ~ 0
 GateDriverEna
@@ -84,11 +84,11 @@ Text HLabel 3600 2700 0    60   Input ~ 0
 ~GateDriverErr2
 Text HLabel 4500 3200 2    60   Output ~ 0
 CurrentSensSpiSclk
-Text HLabel 4500 3300 2    60   Input ~ 0
+Text HLabel 4500 3500 2    60   Input ~ 0
 CurrentSensSpiDoutU
 Text HLabel 4500 3400 2    60   Input ~ 0
 CurrentSensSpiDoutV
-Text HLabel 4500 3500 2    60   Input ~ 0
+Text HLabel 4500 3300 2    60   Input ~ 0
 CurrentSensSpiDoutW
 $Comp
 L Conn_02x24_Odd_Even J3
@@ -236,12 +236,12 @@ $EndComp
 $Comp
 L GND #PWR081
 U 1 1 5AFFCAA6
-P 3600 3300
-F 0 "#PWR081" H 3600 3050 50  0001 C CNN
-F 1 "GND" H 3600 3150 50  0000 C CNN
-F 2 "" H 3600 3300 50  0001 C CNN
-F 3 "" H 3600 3300 50  0001 C CNN
-	1    3600 3300
+P 3600 3400
+F 0 "#PWR081" H 3600 3150 50  0001 C CNN
+F 1 "GND" H 3600 3250 50  0000 C CNN
+F 2 "" H 3600 3400 50  0001 C CNN
+F 3 "" H 3600 3400 50  0001 C CNN
+	1    3600 3400
 	0    1    1    0   
 $EndComp
 $Comp
