@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:PrototypeBoard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -147,7 +115,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 4400 6300 4400
 $Comp
-L +3.3V #PWR01
+L power:+3.3V #PWR01
 U 1 1 5B002D02
 P 9800 1600
 F 0 "#PWR01" H 9800 1450 50  0001 C CNN
@@ -158,7 +126,7 @@ F 3 "" H 9800 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR02
+L power:+BATT #PWR02
 U 1 1 5B002E1E
 P 10400 1600
 F 0 "#PWR02" H 10400 1450 50  0001 C CNN
@@ -169,7 +137,7 @@ F 3 "" H 10400 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L Device:LED D1
 U 1 1 5B002F3A
 P 9800 2350
 F 0 "D1" H 9800 2450 50  0000 C CNN
@@ -180,7 +148,7 @@ F 3 "" H 9800 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D2
+L Device:LED D2
 U 1 1 5B00306C
 P 10400 2350
 F 0 "D2" H 10400 2450 50  0000 C CNN
@@ -191,7 +159,7 @@ F 3 "" H 10400 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5B0031A0
 P 9800 2600
 F 0 "#PWR03" H 9800 2350 50  0001 C CNN
@@ -202,7 +170,7 @@ F 3 "" H 9800 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR04
+L PrototypeBoard-rescue:GNDPWR #PWR04
 U 1 1 5B0032C0
 P 10400 2600
 F 0 "#PWR04" H 10400 2400 50  0001 C CNN
@@ -217,11 +185,11 @@ Wire Wire Line
 Wire Wire Line
 	10400 2500 10400 2600
 Wire Wire Line
-	9800 1600 9800 1800
+	9800 1600 9800 1700
 Wire Wire Line
-	10400 1600 10400 1800
+	10400 1600 10400 1700
 $Comp
-L TEST TP2
+L PrototypeBoard-rescue:TEST TP2
 U 1 1 5B003DB5
 P 10400 1700
 F 0 "TP2" H 10400 2000 50  0000 C BNN
@@ -232,7 +200,7 @@ F 3 "" H 10400 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST TP1
+L PrototypeBoard-rescue:TEST TP1
 U 1 1 5B003EE3
 P 9800 1700
 F 0 "TP1" H 9800 2000 50  0000 C BNN
@@ -245,7 +213,7 @@ $EndComp
 Connection ~ 10400 1700
 Connection ~ 9800 1700
 $Comp
-L R R1
+L Device:R R1
 U 1 1 5AFEBD88
 P 9800 1950
 F 0 "R1" V 9880 1950 50  0000 C CNN
@@ -256,7 +224,7 @@ F 3 "" H 9800 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L Device:R R2
 U 1 1 5AFEC09B
 P 10400 1950
 F 0 "R2" V 10480 1950 50  0000 C CNN
@@ -270,4 +238,8 @@ Wire Wire Line
 	9800 2100 9800 2200
 Wire Wire Line
 	10400 2100 10400 2200
+Wire Wire Line
+	10400 1700 10400 1800
+Wire Wire Line
+	9800 1700 9800 1800
 $EndSCHEMATC

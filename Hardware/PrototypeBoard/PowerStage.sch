@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:PrototypeBoard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GNDPWR #PWR012
+L PrototypeBoard-rescue:GNDPWR #PWR012
 U 1 1 56C10B12
 P 3100 4100
 F 0 "#PWR012" H 3100 3900 50  0001 C CNN
@@ -58,7 +26,7 @@ F 3 "" H 3100 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR013
+L PrototypeBoard-rescue:GNDPWR #PWR013
 U 1 1 56C10B18
 P 5300 4100
 F 0 "#PWR013" H 5300 3900 50  0001 C CNN
@@ -69,7 +37,7 @@ F 3 "" H 5300 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR014
+L PrototypeBoard-rescue:GNDPWR #PWR014
 U 1 1 56C10B1E
 P 7500 4100
 F 0 "#PWR014" H 7500 3900 50  0001 C CNN
@@ -108,7 +76,7 @@ Source_W_H
 Text HLabel 7100 3900 0    60   Input ~ 0
 Source_W_L
 $Comp
-L +BATT #PWR015
+L power:+BATT #PWR015
 U 1 1 56C3D45F
 P 5300 2100
 F 0 "#PWR015" H 5300 1950 50  0001 C CNN
@@ -119,7 +87,7 @@ F 3 "" H 5300 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR016
+L power:+BATT #PWR016
 U 1 1 56C3D47F
 P 3100 2100
 F 0 "#PWR016" H 3100 1950 50  0001 C CNN
@@ -130,7 +98,7 @@ F 3 "" H 3100 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR017
+L power:+BATT #PWR017
 U 1 1 56C3D49F
 P 7500 2100
 F 0 "#PWR017" H 7500 1950 50  0001 C CNN
@@ -143,7 +111,7 @@ $EndComp
 Text HLabel 7600 2900 2    60   Output ~ 0
 Power_Phase_W
 $Comp
-L TEST TP3
+L PrototypeBoard-rescue:TEST TP3
 U 1 1 5B008CF2
 P 3100 2900
 F 0 "TP3" H 3100 3200 50  0000 C BNN
@@ -154,7 +122,7 @@ F 3 "" H 3100 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP4
+L PrototypeBoard-rescue:TEST TP4
 U 1 1 5B008D58
 P 5300 2900
 F 0 "TP4" H 5300 3200 50  0000 C BNN
@@ -165,7 +133,7 @@ F 3 "" H 5300 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP5
+L PrototypeBoard-rescue:TEST TP5
 U 1 1 5B008DA6
 P 7500 2900
 F 0 "TP5" H 7500 3200 50  0000 C BNN
@@ -176,7 +144,7 @@ F 3 "" H 7500 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C7
+L Device:C C7
 U 1 1 5B00A350
 P 3100 4950
 F 0 "C7" H 3125 5050 50  0000 L CNN
@@ -187,7 +155,7 @@ F 3 "" H 3100 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L Device:C C8
 U 1 1 5B00A447
 P 3500 4950
 F 0 "C8" H 3525 5050 50  0000 L CNN
@@ -198,7 +166,7 @@ F 3 "" H 3500 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L Device:C C6
 U 1 1 5B00A488
 P 2700 4950
 F 0 "C6" H 2725 5050 50  0000 L CNN
@@ -209,7 +177,7 @@ F 3 "" H 2700 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C4
+L Device:CP C4
 U 1 1 5B00A755
 P 1500 4950
 F 0 "C4" H 1525 5050 50  0000 L CNN
@@ -220,7 +188,7 @@ F 3 "" H 1500 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C5
+L Device:CP C5
 U 1 1 5B00A808
 P 1900 4950
 F 0 "C5" H 1925 5050 50  0000 L CNN
@@ -231,7 +199,7 @@ F 3 "" H 1900 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR018
+L PrototypeBoard-rescue:GNDPWR #PWR018
 U 1 1 5B00BA7D
 P 3100 5300
 F 0 "#PWR018" H 3100 5100 50  0001 C CNN
@@ -242,7 +210,7 @@ F 3 "" H 3100 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR019
+L PrototypeBoard-rescue:GNDPWR #PWR019
 U 1 1 5B00BB28
 P 5300 5300
 F 0 "#PWR019" H 5300 5100 50  0001 C CNN
@@ -253,7 +221,7 @@ F 3 "" H 5300 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR020
+L PrototypeBoard-rescue:GNDPWR #PWR020
 U 1 1 5B00BB6F
 P 7500 5300
 F 0 "#PWR020" H 7500 5100 50  0001 C CNN
@@ -264,7 +232,7 @@ F 3 "" H 7500 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR021
+L PrototypeBoard-rescue:GNDPWR #PWR021
 U 1 1 5B00BBB6
 P 1700 5300
 F 0 "#PWR021" H 1700 5100 50  0001 C CNN
@@ -371,7 +339,7 @@ Wire Wire Line
 	1700 5300 1700 5200
 Connection ~ 1700 5200
 $Comp
-L +BATT #PWR022
+L power:+BATT #PWR022
 U 1 1 5B00C18C
 P 3100 4600
 F 0 "#PWR022" H 3100 4450 50  0001 C CNN
@@ -382,7 +350,7 @@ F 3 "" H 3100 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR023
+L power:+BATT #PWR023
 U 1 1 5B00C1D3
 P 5300 4600
 F 0 "#PWR023" H 5300 4450 50  0001 C CNN
@@ -393,7 +361,7 @@ F 3 "" H 5300 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR024
+L power:+BATT #PWR024
 U 1 1 5B00C21A
 P 7500 4600
 F 0 "#PWR024" H 7500 4450 50  0001 C CNN
@@ -404,7 +372,7 @@ F 3 "" H 7500 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L Device:C C9
 U 1 1 5B00C673
 P 4900 4950
 F 0 "C9" H 4925 5050 50  0000 L CNN
@@ -415,7 +383,7 @@ F 3 "" H 4900 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L Device:C C11
 U 1 1 5B00C6D6
 P 5700 4950
 F 0 "C11" H 5725 5050 50  0000 L CNN
@@ -426,7 +394,7 @@ F 3 "" H 5700 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L Device:C C12
 U 1 1 5B00C72E
 P 7100 4950
 F 0 "C12" H 7125 5050 50  0000 L CNN
@@ -437,7 +405,7 @@ F 3 "" H 7100 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
+L Device:C C14
 U 1 1 5B00C79B
 P 7900 4950
 F 0 "C14" H 7925 5050 50  0000 L CNN
@@ -448,7 +416,7 @@ F 3 "" H 7900 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L Device:C C10
 U 1 1 5B00C7FB
 P 5300 4950
 F 0 "C10" H 5325 5050 50  0000 L CNN
@@ -459,7 +427,7 @@ F 3 "" H 5300 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C13
+L Device:C C13
 U 1 1 5B00C86E
 P 7500 4950
 F 0 "C13" H 7525 5050 50  0000 L CNN
@@ -470,7 +438,7 @@ F 3 "" H 7500 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR025
+L power:+BATT #PWR025
 U 1 1 5B00C9A4
 P 1700 4600
 F 0 "#PWR025" H 1700 4450 50  0001 C CNN
@@ -484,7 +452,7 @@ Wire Wire Line
 	1700 4600 1700 4700
 Connection ~ 1700 4700
 $Comp
-L Q_NMOS_SGD Q1
+L Device:Q_NMOS_SGD Q1
 U 1 1 5B00718F
 P 3000 2400
 F 0 "Q1" H 3200 2450 50  0000 L CNN
@@ -495,7 +463,7 @@ F 3 "" H 3000 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SGD Q2
+L Device:Q_NMOS_SGD Q2
 U 1 1 5B00724E
 P 3000 3600
 F 0 "Q2" H 3200 3650 50  0000 L CNN
@@ -506,7 +474,7 @@ F 3 "" H 3000 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SGD Q4
+L Device:Q_NMOS_SGD Q4
 U 1 1 5B0072F2
 P 5200 3600
 F 0 "Q4" H 5400 3650 50  0000 L CNN
@@ -517,7 +485,7 @@ F 3 "" H 5200 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SGD Q3
+L Device:Q_NMOS_SGD Q3
 U 1 1 5B007385
 P 5200 2400
 F 0 "Q3" H 5400 2450 50  0000 L CNN
@@ -528,7 +496,7 @@ F 3 "" H 5200 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SGD Q5
+L Device:Q_NMOS_SGD Q5
 U 1 1 5B0073FB
 P 7400 2400
 F 0 "Q5" H 7600 2450 50  0000 L CNN
@@ -539,7 +507,7 @@ F 3 "" H 7400 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SGD Q6
+L Device:Q_NMOS_SGD Q6
 U 1 1 5B00749A
 P 7400 3600
 F 0 "Q6" H 7600 3650 50  0000 L CNN

@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:PrototypeBoard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TLI4970-D025T4 U1
+L PrototypeBoard-rescue:TLI4970-D025T4 U1
 U 1 1 56C11A3C
 P 4450 1200
 F 0 "U1" H 3750 1350 60  0000 C CNN
@@ -58,7 +26,7 @@ F 3 "" H 4450 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLI4970-D025T4 U2
+L PrototypeBoard-rescue:TLI4970-D025T4 U2
 U 1 1 56C11A9F
 P 4450 2900
 F 0 "U2" H 3750 3050 60  0000 C CNN
@@ -69,7 +37,7 @@ F 3 "" H 4450 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLI4970-D025T4 U3
+L PrototypeBoard-rescue:TLI4970-D025T4 U3
 U 1 1 56C11B3C
 P 4450 4600
 F 0 "U3" H 3750 4750 60  0000 C CNN
@@ -90,7 +58,7 @@ Power_Phase_U_measured
 Text HLabel 5500 2900 2    60   Output ~ 0
 Power_Phase_V_measured
 $Comp
-L +3.3V #PWR026
+L power:+3.3V #PWR026
 U 1 1 56C11C4C
 P 5100 4000
 F 0 "#PWR026" H 5100 3850 50  0001 C CNN
@@ -101,7 +69,7 @@ F 3 "" H 5100 4000 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 56C11D3E
 P 4800 4000
 F 0 "#PWR027" H 4800 3750 50  0001 C CNN
@@ -174,7 +142,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 4600 5500 4600
 $Comp
-L C C17
+L Device:C C17
 U 1 1 56C4BF7F
 P 4950 3600
 F 0 "C17" H 4975 3700 50  0000 L CNN
@@ -185,7 +153,7 @@ F 3 "" H 4950 3600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C18
+L Device:C C18
 U 1 1 5B20F200
 P 4950 3900
 F 0 "C18" H 4975 4000 50  0000 L CNN
@@ -196,7 +164,7 @@ F 3 "" H 4950 3900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C15
+L Device:C C15
 U 1 1 5B20F550
 P 4950 1900
 F 0 "C15" H 4975 2000 50  0000 L CNN
@@ -207,7 +175,7 @@ F 3 "" H 4950 1900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C19
+L Device:C C19
 U 1 1 5B20F5AE
 P 4950 5300
 F 0 "C19" H 4975 5400 50  0000 L CNN
@@ -218,7 +186,7 @@ F 3 "" H 4950 5300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C16
+L Device:C C16
 U 1 1 5B20F609
 P 4950 2200
 F 0 "C16" H 4975 2300 50  0000 L CNN
@@ -229,7 +197,7 @@ F 3 "" H 4950 2200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C20
+L Device:C C20
 U 1 1 5B20F677
 P 4950 5600
 F 0 "C20" H 4975 5700 50  0000 L CNN
@@ -240,7 +208,7 @@ F 3 "" H 4950 5600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 5B20F6E2
 P 4800 2300
 F 0 "#PWR028" H 4800 2050 50  0001 C CNN
@@ -251,7 +219,7 @@ F 3 "" H 4800 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 5B20F708
 P 4800 5700
 F 0 "#PWR029" H 4800 5450 50  0001 C CNN
@@ -262,7 +230,7 @@ F 3 "" H 4800 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR030
+L power:+3.3V #PWR030
 U 1 1 5B20F72E
 P 5100 2300
 F 0 "#PWR030" H 5100 2150 50  0001 C CNN
@@ -273,7 +241,7 @@ F 3 "" H 5100 2300 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR031
+L power:+3.3V #PWR031
 U 1 1 5B20F754
 P 5100 5700
 F 0 "#PWR031" H 5100 5550 50  0001 C CNN

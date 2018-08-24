@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:PrototypeBoard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR064
+L power:GND #PWR064
 U 1 1 5AFC9462
 P 9750 2900
 F 0 "#PWR064" H 9750 2650 50  0001 C CNN
@@ -58,7 +26,7 @@ F 3 "" H 9750 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR065
+L power:+3.3V #PWR065
 U 1 1 5AFC948F
 P 9800 3400
 F 0 "#PWR065" H 9800 3250 50  0001 C CNN
@@ -81,7 +49,7 @@ HALL_A
 Text HLabel 7050 3000 0    60   Output ~ 0
 HALL_B
 $Comp
-L Jumper_NC_Dual JP6
+L Device:Jumper_NC_Dual JP6
 U 1 1 5AFC952B
 P 7300 3000
 F 0 "JP6" H 7350 2900 50  0000 L CNN
@@ -92,7 +60,7 @@ F 3 "" H 7300 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Dual JP4
+L Device:Jumper_NC_Dual JP4
 U 1 1 5AFC9571
 P 4100 3200
 F 0 "JP4" H 4150 3100 50  0000 L CNN
@@ -103,7 +71,7 @@ F 3 "" H 4100 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Dual JP7
+L Device:Jumper_NC_Dual JP7
 U 1 1 5AFC95E5
 P 8900 2900
 F 0 "JP7" H 8950 2800 50  0000 L CNN
@@ -114,7 +82,7 @@ F 3 "" H 8900 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Dual JP5
+L Device:Jumper_NC_Dual JP5
 U 1 1 5AFC9628
 P 5700 3100
 F 0 "JP5" H 5750 3000 50  0000 L CNN
@@ -125,7 +93,7 @@ F 3 "" H 5700 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR066
+L power:GND #PWR066
 U 1 1 5AFC9686
 P 3850 3200
 F 0 "#PWR066" H 3850 2950 50  0001 C CNN
@@ -138,7 +106,7 @@ $EndComp
 Text HLabel 5450 3100 0    60   Output ~ 0
 HALL_C
 $Comp
-L TEST TP33
+L PrototypeBoard-rescue:TEST TP33
 U 1 1 5AFF16A3
 P 6700 3100
 F 0 "TP33" H 6700 3400 50  0000 C BNN
@@ -149,7 +117,7 @@ F 3 "" H 6700 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP31
+L PrototypeBoard-rescue:TEST TP31
 U 1 1 5AFF1700
 P 3450 3300
 F 0 "TP31" H 3450 3600 50  0000 C BNN
@@ -160,7 +128,7 @@ F 3 "" H 3450 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP32
+L PrototypeBoard-rescue:TEST TP32
 U 1 1 5AFF1757
 P 5100 3200
 F 0 "TP32" H 5100 3500 50  0000 C BNN
@@ -171,7 +139,7 @@ F 3 "" H 5100 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP34
+L PrototypeBoard-rescue:TEST TP34
 U 1 1 5AFF17C5
 P 8300 3000
 F 0 "TP34" H 8300 3300 50  0000 C BNN
@@ -182,7 +150,7 @@ F 3 "" H 8300 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x06 J2
+L conn:Conn_01x06 J2
 U 1 1 5B245F83
 P 10100 3100
 F 0 "J2" H 10100 3400 50  0000 C CNN
@@ -209,7 +177,7 @@ Connection ~ 4100 3300
 Wire Wire Line
 	9900 3400 9800 3400
 $Comp
-L +3.3V #PWR067
+L power:+3.3V #PWR067
 U 1 1 5B247C3F
 P 10400 3000
 F 0 "#PWR067" H 10400 2850 50  0001 C CNN
@@ -220,7 +188,7 @@ F 3 "" H 10400 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR068
+L power:GND #PWR068
 U 1 1 5B247C68
 P 10400 3300
 F 0 "#PWR068" H 10400 3050 50  0001 C CNN
@@ -231,7 +199,7 @@ F 3 "" H 10400 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C33
+L Device:C C33
 U 1 1 5B247DBB
 P 10400 3150
 F 0 "C33" H 10425 3250 50  0000 L CNN

@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:PrototypeBoard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -96,7 +64,7 @@ CurrentSensSpiDoutW
 Text HLabel 6300 5500 0    60   Input ~ 0
 CurrentSensSpiSclk
 $Comp
-L R R3
+L Device:R R3
 U 1 1 5AFDCF78
 P 2900 3200
 F 0 "R3" V 2980 3200 50  0000 C CNN
@@ -152,7 +120,7 @@ F21 "Gate_V_H" I R 4600 4250 60
 F22 "Gate_U_H" O R 4600 3700 60 
 $EndSheet
 $Comp
-L R R5
+L Device:R R5
 U 1 1 5AFEF95E
 P 9700 4750
 F 0 "R5" V 9780 4750 50  0000 C CNN
@@ -163,7 +131,7 @@ F 3 "" H 9700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L Device:R R7
 U 1 1 5AFEFDB0
 P 10100 4750
 F 0 "R7" V 10180 4750 50  0000 C CNN
@@ -174,7 +142,7 @@ F 3 "" H 10100 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L Device:R R9
 U 1 1 5AFEFF1D
 P 10500 4750
 F 0 "R9" V 10580 4750 50  0000 C CNN
@@ -185,7 +153,7 @@ F 3 "" H 10500 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L Device:C C1
 U 1 1 5AFF0BC1
 P 9500 5550
 F 0 "C1" H 9525 5650 50  0000 L CNN
@@ -196,7 +164,7 @@ F 3 "" H 9500 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L Device:C C2
 U 1 1 5AFF0D64
 P 9900 5550
 F 0 "C2" H 9925 5650 50  0000 L CNN
@@ -207,7 +175,7 @@ F 3 "" H 9900 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L Device:C C3
 U 1 1 5AFF0EA9
 P 10300 5550
 F 0 "C3" H 10325 5650 50  0000 L CNN
@@ -218,7 +186,7 @@ F 3 "" H 10300 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5AFF2590
 P 9500 5750
 F 0 "#PWR05" H 9500 5500 50  0001 C CNN
@@ -229,7 +197,7 @@ F 3 "" H 9500 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5AFF26DA
 P 9900 5750
 F 0 "#PWR06" H 9900 5500 50  0001 C CNN
@@ -240,7 +208,7 @@ F 3 "" H 9900 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 5AFF281D
 P 10300 5750
 F 0 "#PWR07" H 10300 5500 50  0001 C CNN
@@ -251,7 +219,7 @@ F 3 "" H 10300 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Device:R R6
 U 1 1 5AFF3F78
 P 9700 5550
 F 0 "R6" V 9780 5550 50  0000 C CNN
@@ -262,7 +230,7 @@ F 3 "" H 9700 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L Device:R R8
 U 1 1 5AFF40FD
 P 10100 5550
 F 0 "R8" V 10180 5550 50  0000 C CNN
@@ -273,7 +241,7 @@ F 3 "" H 10100 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L Device:R R10
 U 1 1 5AFF424A
 P 10500 5550
 F 0 "R10" V 10580 5550 50  0000 C CNN
@@ -284,7 +252,7 @@ F 3 "" H 10500 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5AFF49CA
 P 9700 5750
 F 0 "#PWR08" H 9700 5500 50  0001 C CNN
@@ -295,7 +263,7 @@ F 3 "" H 9700 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5AFF4BAF
 P 10100 5750
 F 0 "#PWR09" H 10100 5500 50  0001 C CNN
@@ -306,7 +274,7 @@ F 3 "" H 10100 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 5AFF4CF9
 P 10500 5750
 F 0 "#PWR010" H 10500 5500 50  0001 C CNN
@@ -344,7 +312,7 @@ F7 "HALL_B" O R 4600 1750 60
 F8 "HALL_C" O R 4600 1900 60 
 $EndSheet
 $Comp
-L Jumper_NC_Dual JP1
+L Device:Jumper_NC_Dual JP1
 U 1 1 5AFFD01D
 P 5400 2300
 F 0 "JP1" H 5450 2200 50  0000 L CNN
@@ -355,7 +323,7 @@ F 3 "" H 5400 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Dual JP2
+L Device:Jumper_NC_Dual JP2
 U 1 1 5AFFD449
 P 6200 2400
 F 0 "JP2" H 6250 2300 50  0000 L CNN
@@ -366,7 +334,7 @@ F 3 "" H 6200 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Dual JP3
+L Device:Jumper_NC_Dual JP3
 U 1 1 5AFFD604
 P 7000 2500
 F 0 "JP3" H 7050 2400 50  0000 L CNN
@@ -377,7 +345,7 @@ F 3 "" H 7000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR011
+L power:+BATT #PWR011
 U 1 1 5AFFE539
 P 5200 2700
 F 0 "#PWR011" H 5200 2550 50  0001 C CNN
@@ -408,7 +376,7 @@ Power Consumption estimation 3.3V Rail:\nEncoder: 15mA (AMS5048)\nADC: 1mA\nGate
 Text Notes 9700 6100 0    60   ~ 0
 1kHz low pass
 $Comp
-L R R4
+L Device:R R4
 U 1 1 5B005AF3
 P 4950 2700
 F 0 "R4" V 5030 2700 50  0000 C CNN
@@ -449,7 +417,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 3400 6500 3400
 Wire Wire Line
-	3050 3200 3250 3200
+	3050 3200 3100 3200
 Wire Wire Line
 	4700 3400 4700 3000
 Wire Wire Line
@@ -478,11 +446,11 @@ Wire Wire Line
 Wire Wire Line
 	10300 5700 10300 5750
 Wire Wire Line
-	8700 4400 10600 4400
+	8700 4400 10100 4400
 Wire Wire Line
-	8800 4300 10600 4300
+	8800 4300 9700 4300
 Wire Wire Line
-	8800 4500 10600 4500
+	8800 4500 10500 4500
 Wire Wire Line
 	9700 5700 9700 5750
 Wire Wire Line
@@ -586,11 +554,11 @@ Wire Wire Line
 Wire Wire Line
 	5100 2700 5200 2700
 Wire Wire Line
-	9700 4900 9700 5400
+	9700 4900 9700 5000
 Wire Wire Line
-	10100 4900 10100 5400
+	10100 4900 10100 5100
 Wire Wire Line
-	10500 4900 10500 5400
+	10500 4900 10500 5200
 Wire Wire Line
 	9500 5400 9500 5300
 Wire Wire Line
@@ -607,7 +575,7 @@ Connection ~ 9700 5300
 Connection ~ 10100 5300
 Connection ~ 10500 5300
 $Comp
-L Conn_01x03 J1
+L conn:Conn_01x03 J1
 U 1 1 5B23EBC2
 P 10800 4400
 F 0 "J1" H 10800 4600 50  0000 C CNN
@@ -617,4 +585,24 @@ F 3 "" H 10800 4400 50  0001 C CNN
 	1    10800 4400
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	3100 3200 3250 3200
+Wire Wire Line
+	9700 4300 10600 4300
+Wire Wire Line
+	10100 4400 10600 4400
+Wire Wire Line
+	10500 4500 10600 4500
+Wire Wire Line
+	10500 5200 10500 5300
+Wire Wire Line
+	10100 5100 10100 5300
+Wire Wire Line
+	9700 5000 9700 5300
+Wire Wire Line
+	9700 5300 9700 5400
+Wire Wire Line
+	10100 5300 10100 5400
+Wire Wire Line
+	10500 5300 10500 5400
 $EndSCHEMATC

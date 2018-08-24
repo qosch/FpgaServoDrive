@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:PrototypeBoard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -91,7 +59,7 @@ CurrentSensSpiDoutV
 Text HLabel 4500 3300 2    60   Input ~ 0
 CurrentSensSpiDoutW
 $Comp
-L Conn_02x24_Odd_Even J3
+L conn:Conn_02x24_Odd_Even J3
 U 1 1 5AFFC4D2
 P 4000 3400
 F 0 "J3" H 4050 4600 50  0000 C CNN
@@ -102,7 +70,7 @@ F 3 "" H 4000 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR069
+L PrototypeBoard-rescue:GNDPWR #PWR069
 U 1 1 5AFFC52B
 P 3600 4600
 F 0 "#PWR069" H 3600 4400 50  0001 C CNN
@@ -113,7 +81,7 @@ F 3 "" H 3600 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDPWR #PWR070
+L PrototypeBoard-rescue:GNDPWR #PWR070
 U 1 1 5AFFC541
 P 3600 2300
 F 0 "#PWR070" H 3600 2100 50  0001 C CNN
@@ -124,7 +92,7 @@ F 3 "" H 3600 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +BATT #PWR071
+L power:+BATT #PWR071
 U 1 1 5AFFC5BD
 P 8200 2300
 F 0 "#PWR071" H 8200 2150 50  0001 C CNN
@@ -135,7 +103,7 @@ F 3 "" H 8200 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR072
+L power:GND #PWR072
 U 1 1 5AFFC6F4
 P 3600 2600
 F 0 "#PWR072" H 3600 2350 50  0001 C CNN
@@ -146,7 +114,7 @@ F 3 "" H 3600 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR073
+L power:GND #PWR073
 U 1 1 5AFFC70F
 P 3600 4300
 F 0 "#PWR073" H 3600 4050 50  0001 C CNN
@@ -157,7 +125,7 @@ F 3 "" H 3600 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR074
+L power:+3.3V #PWR074
 U 1 1 5AFFC799
 P 6700 2600
 F 0 "#PWR074" H 6700 2450 50  0001 C CNN
@@ -168,7 +136,7 @@ F 3 "" H 6700 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR075
+L power:GND #PWR075
 U 1 1 5AFFCA44
 P 3600 4100
 F 0 "#PWR075" H 3600 3850 50  0001 C CNN
@@ -179,7 +147,7 @@ F 3 "" H 3600 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR076
+L power:GND #PWR076
 U 1 1 5AFFCA52
 P 3600 4000
 F 0 "#PWR076" H 3600 3750 50  0001 C CNN
@@ -190,7 +158,7 @@ F 3 "" H 3600 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR077
+L power:GND #PWR077
 U 1 1 5AFFCA60
 P 3600 3900
 F 0 "#PWR077" H 3600 3650 50  0001 C CNN
@@ -201,7 +169,7 @@ F 3 "" H 3600 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR078
+L power:GND #PWR078
 U 1 1 5AFFCA6E
 P 3600 3700
 F 0 "#PWR078" H 3600 3450 50  0001 C CNN
@@ -212,7 +180,7 @@ F 3 "" H 3600 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR079
+L power:GND #PWR079
 U 1 1 5AFFCA7C
 P 3600 3600
 F 0 "#PWR079" H 3600 3350 50  0001 C CNN
@@ -223,7 +191,7 @@ F 3 "" H 3600 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR080
+L power:GND #PWR080
 U 1 1 5AFFCA98
 P 3600 3500
 F 0 "#PWR080" H 3600 3250 50  0001 C CNN
@@ -234,7 +202,7 @@ F 3 "" H 3600 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR081
+L power:GND #PWR081
 U 1 1 5AFFCAA6
 P 3600 3400
 F 0 "#PWR081" H 3600 3150 50  0001 C CNN
@@ -245,7 +213,7 @@ F 3 "" H 3600 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR082
+L power:GND #PWR082
 U 1 1 5AFFCAB4
 P 3600 3200
 F 0 "#PWR082" H 3600 2950 50  0001 C CNN
@@ -256,7 +224,7 @@ F 3 "" H 3600 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Fuse F2
+L Device:Fuse F2
 U 1 1 5B0008BD
 P 7450 2300
 F 0 "F2" V 7530 2300 50  0000 C CNN
@@ -267,7 +235,7 @@ F 3 "" H 7450 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR083
+L power:+3.3V #PWR083
 U 1 1 5AFF6F2E
 P 3600 5900
 F 0 "#PWR083" H 3600 5750 50  0001 C CNN
@@ -278,7 +246,7 @@ F 3 "" H 3600 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG084
+L power:PWR_FLAG #FLG084
 U 1 1 5AFF6F6D
 P 3600 6100
 F 0 "#FLG084" H 3600 6175 50  0001 C CNN
@@ -289,7 +257,7 @@ F 3 "" H 3600 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG085
+L power:PWR_FLAG #FLG085
 U 1 1 5AFF70D3
 P 4600 5900
 F 0 "#FLG085" H 4600 5975 50  0001 C CNN
@@ -410,7 +378,7 @@ Wire Wire Line
 Connection ~ 4400 2300
 Connection ~ 4400 2400
 $Comp
-L PWR_FLAG #FLG086
+L power:PWR_FLAG #FLG086
 U 1 1 5AFF727E
 P 4100 6100
 F 0 "#FLG086" H 4100 6175 50  0001 C CNN
@@ -421,7 +389,7 @@ F 3 "" H 4100 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +BATT #PWR087
+L power:+BATT #PWR087
 U 1 1 5AFF72BB
 P 4100 5900
 F 0 "#PWR087" H 4100 5750 50  0001 C CNN
@@ -434,7 +402,7 @@ $EndComp
 Wire Wire Line
 	4100 5900 4100 6100
 $Comp
-L GND #PWR088
+L power:GND #PWR088
 U 1 1 5AFF731E
 P 4600 6100
 F 0 "#PWR088" H 4600 5850 50  0001 C CNN
@@ -447,7 +415,7 @@ $EndComp
 Wire Wire Line
 	4600 5900 4600 6100
 $Comp
-L PWR_FLAG #FLG089
+L power:PWR_FLAG #FLG089
 U 1 1 5AFF7374
 P 5100 5900
 F 0 "#FLG089" H 5100 5975 50  0001 C CNN
@@ -458,7 +426,7 @@ F 3 "" H 5100 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR090
+L PrototypeBoard-rescue:GNDPWR #PWR090
 U 1 1 5AFF7385
 P 5100 6100
 F 0 "#PWR090" H 5100 5900 50  0001 C CNN
@@ -473,7 +441,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 2800 4500 2800
 $Comp
-L GND #PWR091
+L power:GND #PWR091
 U 1 1 5AFF86D9
 P 3600 2800
 F 0 "#PWR091" H 3600 2550 50  0001 C CNN
@@ -486,7 +454,7 @@ $EndComp
 Wire Wire Line
 	3600 2800 3800 2800
 $Comp
-L C C34
+L Device:C C34
 U 1 1 5AFF8734
 P 4050 1700
 F 0 "C34" H 4075 1800 50  0000 L CNN
@@ -497,7 +465,7 @@ F 3 "" H 4050 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C37
+L Device:C C37
 U 1 1 5AFF8906
 P 4050 5200
 F 0 "C37" H 4075 5300 50  0000 L CNN
@@ -518,7 +486,7 @@ Wire Wire Line
 Text Notes 3300 6700 0    60   ~ 0
 Since ERC complains about no drivers in power net \n(connector pins don't have the type "Power Output"), \nthis workaround has to be used
 $Comp
-L GNDPWR #PWR092
+L PrototypeBoard-rescue:GNDPWR #PWR092
 U 1 1 5B0080B7
 P 7900 2800
 F 0 "#PWR092" H 7900 2600 50  0001 C CNN
@@ -532,7 +500,7 @@ Wire Wire Line
 	7200 4600 7200 2300
 Connection ~ 7200 2300
 $Comp
-L Fuse F1
+L Device:Fuse F1
 U 1 1 5B00839B
 P 6150 2600
 F 0 "F1" V 6230 2600 50  0000 C CNN
@@ -549,7 +517,7 @@ Wire Wire Line
 Connection ~ 5900 2600
 Connection ~ 5900 3900
 $Comp
-L GND #PWR093
+L power:GND #PWR093
 U 1 1 5B008FFB
 P 6500 3100
 F 0 "#PWR093" H 6500 2850 50  0001 C CNN
@@ -560,7 +528,7 @@ F 3 "" H 6500 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_TVS D9
+L Device:D_TVS D9
 U 1 1 5B00D2A4
 P 7900 2550
 F 0 "D9" H 7900 2650 50  0000 C CNN
@@ -576,7 +544,7 @@ Connection ~ 7900 2300
 Wire Wire Line
 	7900 2700 7900 2800
 $Comp
-L D_TVS D7
+L Device:D_TVS D7
 U 1 1 5B00D572
 P 6500 2850
 F 0 "D7" H 6500 2950 50  0000 C CNN
@@ -592,7 +560,7 @@ Wire Wire Line
 	6500 2700 6500 2600
 Connection ~ 6500 2600
 $Comp
-L C C36
+L Device:C C36
 U 1 1 5B00D7DF
 P 4050 4900
 F 0 "C36" H 4075 5000 50  0000 L CNN
@@ -609,7 +577,7 @@ Wire Wire Line
 Connection ~ 4400 4900
 Connection ~ 3700 4900
 $Comp
-L C C35
+L Device:C C35
 U 1 1 5B00D9FF
 P 4050 2000
 F 0 "C35" H 4075 2100 50  0000 L CNN
@@ -626,7 +594,7 @@ Wire Wire Line
 	4200 2000 4400 2000
 Connection ~ 4400 2000
 $Comp
-L C C38
+L Device:C C38
 U 1 1 5B00DC69
 P 5800 2850
 F 0 "C38" H 5825 2950 50  0000 L CNN
@@ -637,7 +605,7 @@ F 3 "" H 5800 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C39
+L Device:C C39
 U 1 1 5B00DD38
 P 6150 3900
 F 0 "C39" H 6175 4000 50  0000 L CNN
@@ -648,7 +616,7 @@ F 3 "" H 6150 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C40
+L Device:C C40
 U 1 1 5B00DD8B
 P 6150 4300
 F 0 "C40" H 6175 4400 50  0000 L CNN
@@ -660,7 +628,7 @@ F 3 "" H 6150 4300 50  0001 C CNN
 $EndComp
 Connection ~ 5900 4300
 $Comp
-L GND #PWR094
+L power:GND #PWR094
 U 1 1 5B00DFF3
 P 6400 3900
 F 0 "#PWR094" H 6400 3650 50  0001 C CNN
@@ -671,7 +639,7 @@ F 3 "" H 6400 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR095
+L power:GND #PWR095
 U 1 1 5B00E052
 P 6400 4300
 F 0 "#PWR095" H 6400 4050 50  0001 C CNN
@@ -689,7 +657,7 @@ Wire Wire Line
 	5800 2700 5800 2600
 Connection ~ 5800 2600
 $Comp
-L GND #PWR096
+L power:GND #PWR096
 U 1 1 5B00E24D
 P 5800 3100
 F 0 "#PWR096" H 5800 2850 50  0001 C CNN
@@ -708,7 +676,7 @@ PowerIn
 Text Label 4900 2600 0    60   ~ 0
 3V3in
 $Comp
-L D_TVS D8
+L Device:D_TVS D8
 U 1 1 5B27A7EB
 P 7000 2450
 F 0 "D8" H 7000 2550 50  0000 C CNN
@@ -722,7 +690,7 @@ Wire Wire Line
 	4300 2300 7300 2300
 Connection ~ 7000 2300
 $Comp
-L GNDPWR #PWR097
+L PrototypeBoard-rescue:GNDPWR #PWR097
 U 1 1 5B27AA44
 P 7000 2650
 F 0 "#PWR097" H 7000 2450 50  0001 C CNN
