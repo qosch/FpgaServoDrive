@@ -46,9 +46,9 @@ Text HLabel 3600 3300 0    60   Output ~ 0
 ~CurrentSensSpiCs
 Text HLabel 4500 2800 2    60   Output ~ 0
 GateDriverEna
-Text HLabel 4500 2700 2    60   Input ~ 0
-~GateDriverErr1
 Text HLabel 3600 2700 0    60   Input ~ 0
+~GateDriverErr1
+Text HLabel 4500 2700 2    60   Input ~ 0
 ~GateDriverErr2
 Text HLabel 4500 3200 2    60   Output ~ 0
 CurrentSensSpiSclk
@@ -270,24 +270,24 @@ $EndComp
 Wire Wire Line
 	3800 4400 3700 4400
 Wire Wire Line
-	3700 4400 3700 5200
+	3700 4400 3700 4500
 Wire Wire Line
-	3600 4600 3800 4600
+	3600 4600 3700 4600
 Wire Wire Line
 	3800 4500 3700 4500
 Connection ~ 3700 4500
 Connection ~ 3700 4600
 Wire Wire Line
-	3600 2300 3800 2300
+	3600 2300 3700 2300
 Wire Wire Line
-	3700 1700 3700 2500
+	3700 1700 3700 2000
 Wire Wire Line
 	3800 2400 3700 2400
 Connection ~ 3700 2400
 Wire Wire Line
-	4300 4600 7200 4600
+	4300 4600 4400 4600
 Wire Wire Line
-	4400 4400 4400 5200
+	4400 4400 4400 4500
 Wire Wire Line
 	4300 4500 4400 4500
 Connection ~ 4400 4500
@@ -296,9 +296,9 @@ Wire Wire Line
 Wire Wire Line
 	4300 2400 4400 2400
 Wire Wire Line
-	4300 4300 6000 4300
+	4300 4300 5900 4300
 Wire Wire Line
-	4300 2600 6000 2600
+	4300 2600 5800 2600
 Wire Wire Line
 	4400 4400 4300 4400
 Connection ~ 4400 4600
@@ -320,7 +320,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 4000 4500 4000
 Wire Wire Line
-	4300 3900 6000 3900
+	4300 3900 5900 3900
 Wire Wire Line
 	4300 3800 4500 3800
 Wire Wire Line
@@ -370,11 +370,11 @@ Wire Wire Line
 Wire Wire Line
 	3600 4300 3800 4300
 Wire Wire Line
-	7600 2300 8200 2300
+	7600 2300 7900 2300
 Wire Wire Line
 	3600 5900 3600 6100
 Wire Wire Line
-	4400 1700 4400 2500
+	4400 1700 4400 2000
 Connection ~ 4400 2300
 Connection ~ 4400 2400
 $Comp
@@ -511,9 +511,9 @@ F 3 "" H 6150 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6300 2600 6700 2600
+	6300 2600 6500 2600
 Wire Wire Line
-	5900 2600 5900 4300
+	5900 2600 5900 3900
 Connection ~ 5900 2600
 Connection ~ 5900 3900
 $Comp
@@ -687,7 +687,7 @@ F 3 "" H 7000 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4300 2300 7300 2300
+	4300 2300 4400 2300
 Connection ~ 7000 2300
 $Comp
 L PrototypeBoard-rescue:GNDPWR #PWR097
@@ -704,4 +704,54 @@ Wire Wire Line
 	7000 2650 7000 2600
 Text Notes 6550 2150 0    60   ~ 0
 TVS diode at \nthe PowerIn net\nburns the fuse in case \nDC link voltage rises \nover 30V during \nregenerative breaking
+Wire Wire Line
+	3700 4500 3700 4600
+Wire Wire Line
+	3700 4600 3800 4600
+Wire Wire Line
+	3700 4600 3700 4900
+Wire Wire Line
+	3700 2400 3700 2500
+Wire Wire Line
+	4400 4500 4400 4600
+Wire Wire Line
+	4400 4600 7200 4600
+Wire Wire Line
+	4400 4600 4400 4900
+Wire Wire Line
+	3700 2300 3800 2300
+Wire Wire Line
+	3700 2300 3700 2400
+Wire Wire Line
+	4400 2300 4400 2400
+Wire Wire Line
+	4400 2300 7000 2300
+Wire Wire Line
+	4400 2400 4400 2500
+Wire Wire Line
+	7200 2300 7300 2300
+Wire Wire Line
+	5900 2600 6000 2600
+Wire Wire Line
+	5900 3900 6000 3900
+Wire Wire Line
+	5900 3900 5900 4300
+Wire Wire Line
+	7900 2300 8200 2300
+Wire Wire Line
+	6500 2600 6700 2600
+Wire Wire Line
+	4400 4900 4400 5200
+Wire Wire Line
+	3700 4900 3700 5200
+Wire Wire Line
+	3700 2000 3700 2300
+Wire Wire Line
+	4400 2000 4400 2300
+Wire Wire Line
+	5900 4300 6000 4300
+Wire Wire Line
+	5800 2600 5900 2600
+Wire Wire Line
+	7000 2300 7200 2300
 $EndSCHEMATC
