@@ -252,27 +252,51 @@ F 3 "" H 5100 5700 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5100 5200 5100 5700
+	5100 5200 5100 5300
 Connection ~ 5100 5600
 Connection ~ 5100 5300
 Wire Wire Line
-	4800 5200 4800 5700
+	4800 5200 4800 5300
 Connection ~ 4800 5300
 Connection ~ 4800 5600
 Wire Wire Line
-	4800 3500 4800 4000
+	4800 3500 4800 3600
 Wire Wire Line
-	5100 3500 5100 4000
+	5100 3500 5100 3600
 Connection ~ 5100 3600
 Connection ~ 4800 3600
 Connection ~ 4800 3900
 Connection ~ 5100 3900
 Wire Wire Line
-	4800 1800 4800 2300
+	4800 1800 4800 1900
 Wire Wire Line
-	5100 1800 5100 2300
+	5100 1800 5100 1900
 Connection ~ 5100 1900
 Connection ~ 4800 1900
 Connection ~ 4800 2200
 Connection ~ 5100 2200
+Wire Wire Line
+	5100 5600 5100 5700
+Wire Wire Line
+	5100 5300 5100 5600
+Wire Wire Line
+	4800 5300 4800 5600
+Wire Wire Line
+	4800 5600 4800 5700
+Wire Wire Line
+	5100 3600 5100 3900
+Wire Wire Line
+	4800 3600 4800 3900
+Wire Wire Line
+	4800 3900 4800 4000
+Wire Wire Line
+	5100 3900 5100 4000
+Wire Wire Line
+	5100 1900 5100 2200
+Wire Wire Line
+	4800 1900 4800 2200
+Wire Wire Line
+	4800 2200 4800 2300
+Wire Wire Line
+	5100 2200 5100 2300
 $EndSCHEMATC
