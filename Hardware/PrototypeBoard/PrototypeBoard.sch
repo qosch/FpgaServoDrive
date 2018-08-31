@@ -115,10 +115,10 @@ Wire Wire Line
 Wire Wire Line
 	5800 4400 6300 4400
 $Comp
-L power:+3.3V #PWR01
+L power:+3.3V #PWR03
 U 1 1 5B002D02
 P 9800 1600
-F 0 "#PWR01" H 9800 1450 50  0001 C CNN
+F 0 "#PWR03" H 9800 1450 50  0001 C CNN
 F 1 "+3.3V" H 9800 1740 50  0000 C CNN
 F 2 "" H 9800 1600 50  0001 C CNN
 F 3 "" H 9800 1600 50  0001 C CNN
@@ -126,10 +126,10 @@ F 3 "" H 9800 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR02
+L power:+BATT #PWR07
 U 1 1 5B002E1E
 P 10400 1600
-F 0 "#PWR02" H 10400 1450 50  0001 C CNN
+F 0 "#PWR07" H 10400 1450 50  0001 C CNN
 F 1 "+BATT" H 10400 1740 50  0000 C CNN
 F 2 "" H 10400 1600 50  0001 C CNN
 F 3 "" H 10400 1600 50  0001 C CNN
@@ -159,10 +159,10 @@ F 3 "" H 10400 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR03
+L power:GND #PWR04
 U 1 1 5B0031A0
 P 9800 2600
-F 0 "#PWR03" H 9800 2350 50  0001 C CNN
+F 0 "#PWR04" H 9800 2350 50  0001 C CNN
 F 1 "GND" H 9800 2450 50  0000 C CNN
 F 2 "" H 9800 2600 50  0001 C CNN
 F 3 "" H 9800 2600 50  0001 C CNN
@@ -170,10 +170,10 @@ F 3 "" H 9800 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PrototypeBoard-rescue:GNDPWR #PWR04
+L PrototypeBoard-rescue:GNDPWR #PWR08
 U 1 1 5B0032C0
 P 10400 2600
-F 0 "#PWR04" H 10400 2400 50  0001 C CNN
+F 0 "#PWR08" H 10400 2400 50  0001 C CNN
 F 1 "GNDPWR" H 10400 2470 50  0000 C CNN
 F 2 "" H 10400 2550 50  0001 C CNN
 F 3 "" H 10400 2550 50  0001 C CNN
@@ -242,4 +242,108 @@ Wire Wire Line
 	10400 1700 10400 1800
 Wire Wire Line
 	9800 1700 9800 1800
+$Comp
+L Mechanical:MountingHole_Pad MH?
+U 1 1 5B88C317
+P 9000 4500
+AR Path="/56D57CF9/5B88C317" Ref="MH?"  Part="1" 
+AR Path="/5B88C317" Ref="MH1"  Part="1" 
+F 0 "MH1" H 9100 4551 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9100 4460 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 9000 4500 50  0001 C CNN
+F 3 "~" H 9000 4500 50  0001 C CNN
+	1    9000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH?
+U 1 1 5B88C31E
+P 10100 4500
+AR Path="/56D57CF9/5B88C31E" Ref="MH?"  Part="1" 
+AR Path="/5B88C31E" Ref="MH3"  Part="1" 
+F 0 "MH3" H 10200 4551 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10200 4460 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 10100 4500 50  0001 C CNN
+F 3 "~" H 10100 4500 50  0001 C CNN
+	1    10100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH?
+U 1 1 5B88C325
+P 9000 5100
+AR Path="/56D57CF9/5B88C325" Ref="MH?"  Part="1" 
+AR Path="/5B88C325" Ref="MH2"  Part="1" 
+F 0 "MH2" H 9100 5151 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9100 5060 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 9000 5100 50  0001 C CNN
+F 3 "~" H 9000 5100 50  0001 C CNN
+	1    9000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH?
+U 1 1 5B88C32C
+P 10100 5100
+AR Path="/56D57CF9/5B88C32C" Ref="MH?"  Part="1" 
+AR Path="/5B88C32C" Ref="MH4"  Part="1" 
+F 0 "MH4" H 10200 5151 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10200 5060 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 10100 5100 50  0001 C CNN
+F 3 "~" H 10100 5100 50  0001 C CNN
+	1    10100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PrototypeBoard-rescue:GNDPWR #PWR?
+U 1 1 5B88FB48
+P 9000 5200
+AR Path="/5AFD76B5/5B88FB48" Ref="#PWR?"  Part="1" 
+AR Path="/5B88FB48" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 9000 5000 50  0001 C CNN
+F 1 "GNDPWR" H 9000 5070 50  0000 C CNN
+F 2 "" H 9000 5150 50  0001 C CNN
+F 3 "" H 9000 5150 50  0001 C CNN
+	1    9000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PrototypeBoard-rescue:GNDPWR #PWR?
+U 1 1 5B88FE88
+P 9000 4600
+AR Path="/5AFD76B5/5B88FE88" Ref="#PWR?"  Part="1" 
+AR Path="/5B88FE88" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 9000 4400 50  0001 C CNN
+F 1 "GNDPWR" H 9000 4470 50  0000 C CNN
+F 2 "" H 9000 4550 50  0001 C CNN
+F 3 "" H 9000 4550 50  0001 C CNN
+	1    9000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PrototypeBoard-rescue:GNDPWR #PWR?
+U 1 1 5B88FEA7
+P 10100 4600
+AR Path="/5AFD76B5/5B88FEA7" Ref="#PWR?"  Part="1" 
+AR Path="/5B88FEA7" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 10100 4400 50  0001 C CNN
+F 1 "GNDPWR" H 10100 4470 50  0000 C CNN
+F 2 "" H 10100 4550 50  0001 C CNN
+F 3 "" H 10100 4550 50  0001 C CNN
+	1    10100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PrototypeBoard-rescue:GNDPWR #PWR?
+U 1 1 5B88FEC6
+P 10100 5200
+AR Path="/5AFD76B5/5B88FEC6" Ref="#PWR?"  Part="1" 
+AR Path="/5B88FEC6" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 10100 5000 50  0001 C CNN
+F 1 "GNDPWR" H 10100 5070 50  0000 C CNN
+F 2 "" H 10100 5150 50  0001 C CNN
+F 3 "" H 10100 5150 50  0001 C CNN
+	1    10100 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

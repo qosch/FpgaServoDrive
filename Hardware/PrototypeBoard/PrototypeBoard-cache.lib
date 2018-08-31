@@ -148,6 +148,23 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device:Net-Tie_2
+#
+DEF Device:Net-Tie_2 NT 0 0 N N 1 F N
+F0 "NT" 0 50 50 H V C CNN
+F1 "Device:Net-Tie_2" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Net*Tie*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 0 50 0 N
+X 1 1 -100 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device:Q_NMOS_SGD
 #
 DEF Device:Q_NMOS_SGD Q 0 0 Y N 1 F N
@@ -194,6 +211,22 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical:MountingHole_Pad
+#
+DEF Mechanical:MountingHole_Pad MH 0 40 N N 1 F N
+F0 "MH" 0 250 50 H V C CNN
+F1 "Mechanical:MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
