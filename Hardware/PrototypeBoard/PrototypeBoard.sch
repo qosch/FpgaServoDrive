@@ -150,7 +150,7 @@ U 1 1 5B003DB5
 P 10400 1700
 F 0 "TP2" H 10400 2000 50  0000 C BNN
 F 1 "5.5-28V" H 10400 1950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 10400 1700 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 10400 1700 50  0001 C CNN
 F 3 "" H 10400 1700 50  0001 C CNN
 	1    10400 1700
 	0    1    1    0   
@@ -161,7 +161,7 @@ U 1 1 5B003EE3
 P 9800 1700
 F 0 "TP1" H 9800 2000 50  0000 C BNN
 F 1 "3.3V" H 9800 1950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 9800 1700 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 9800 1700 50  0001 C CNN
 F 3 "" H 9800 1700 50  0001 C CNN
 	1    9800 1700
 	0    1    1    0   

@@ -558,7 +558,7 @@ U 1 1 5B00632C
 P 6950 2600
 F 0 "TP17" H 6950 2900 50  0000 C BNN
 F 1 "BstV" H 6950 2850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 6950 2600 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 6950 2600 50  0001 C CNN
 F 3 "" H 6950 2600 50  0001 C CNN
 	1    6950 2600
 	1    0    0    -1  
@@ -569,7 +569,7 @@ U 1 1 5B00675F
 P 6950 1900
 F 0 "TP16" H 6950 2200 50  0000 C BNN
 F 1 "BstU" H 6950 2150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 6950 1900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 6950 1900 50  0001 C CNN
 F 3 "" H 6950 1900 50  0001 C CNN
 	1    6950 1900
 	1    0    0    -1  
@@ -580,7 +580,7 @@ U 1 1 5B0067D7
 P 6950 3300
 F 0 "TP18" H 6950 3600 50  0000 C BNN
 F 1 "BstW" H 6950 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 6950 3300 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 6950 3300 50  0001 C CNN
 F 3 "" H 6950 3300 50  0001 C CNN
 	1    6950 3300
 	1    0    0    -1  
@@ -591,7 +591,7 @@ U 1 1 5B006F17
 P 6200 2700
 F 0 "TP14" H 6200 3000 50  0000 C BNN
 F 1 "GateVH" H 6200 2950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 6200 2700 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 6200 2700 50  0001 C CNN
 F 3 "" H 6200 2700 50  0001 C CNN
 	1    6200 2700
 	1    0    0    -1  
@@ -602,7 +602,7 @@ U 1 1 5B007003
 P 6200 2000
 F 0 "TP13" H 6200 2300 50  0000 C BNN
 F 1 "GateUH" H 6200 2250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 6200 2000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 6200 2000 50  0001 C CNN
 F 3 "" H 6200 2000 50  0001 C CNN
 	1    6200 2000
 	1    0    0    -1  
@@ -613,7 +613,7 @@ U 1 1 5B00714B
 P 6200 3400
 F 0 "TP15" H 6200 3700 50  0000 C BNN
 F 1 "GateWH" H 6200 3650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 6200 3400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 6200 3400 50  0001 C CNN
 F 3 "" H 6200 3400 50  0001 C CNN
 	1    6200 3400
 	1    0    0    -1  
@@ -624,7 +624,7 @@ U 1 1 5B007271
 P 6950 4000
 F 0 "TP19" H 6950 4300 50  0000 C BNN
 F 1 "GateUL" H 6950 4250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 6950 4000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 6950 4000 50  0001 C CNN
 F 3 "" H 6950 4000 50  0001 C CNN
 	1    6950 4000
 	0    1    1    0   
@@ -635,7 +635,7 @@ U 1 1 5B0073EE
 P 6950 4500
 F 0 "TP20" H 6950 4800 50  0000 C BNN
 F 1 "GateVL" H 6950 4750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 6950 4500 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 6950 4500 50  0001 C CNN
 F 3 "" H 6950 4500 50  0001 C CNN
 	1    6950 4500
 	0    1    1    0   
@@ -646,7 +646,7 @@ U 1 1 5B007541
 P 6950 5000
 F 0 "TP21" H 6950 5300 50  0000 C BNN
 F 1 "GateWL" H 6950 5250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 6950 5000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 6950 5000 50  0001 C CNN
 F 3 "" H 6950 5000 50  0001 C CNN
 	1    6950 5000
 	0    1    1    0   
@@ -657,7 +657,7 @@ U 1 1 5B007A76
 P 1900 3100
 F 0 "TP9" H 1900 3400 50  0000 C BNN
 F 1 "GdEna" H 1900 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 1900 3100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 1900 3100 50  0001 C CNN
 F 3 "" H 1900 3100 50  0001 C CNN
 	1    1900 3100
 	0    -1   -1   0   
@@ -668,7 +668,7 @@ U 1 1 5B007E0F
 P 1900 3400
 F 0 "TP10" H 1900 3700 50  0000 C BNN
 F 1 "PwmUL" H 1900 3650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 1900 3400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 1900 3400 50  0001 C CNN
 F 3 "" H 1900 3400 50  0001 C CNN
 	1    1900 3400
 	0    -1   -1   0   
@@ -679,7 +679,7 @@ U 1 1 5B007F38
 P 1700 3600
 F 0 "TP6" H 1700 3900 50  0000 C BNN
 F 1 "~PwmUH" H 1700 3850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 1700 3600 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 1700 3600 50  0001 C CNN
 F 3 "" H 1700 3600 50  0001 C CNN
 	1    1700 3600
 	0    -1   -1   0   
@@ -690,7 +690,7 @@ U 1 1 5B007FCC
 P 1900 3900
 F 0 "TP11" H 1900 4200 50  0000 C BNN
 F 1 "PwmVL" H 1900 4150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 1900 3900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 1900 3900 50  0001 C CNN
 F 3 "" H 1900 3900 50  0001 C CNN
 	1    1900 3900
 	0    -1   -1   0   
@@ -701,7 +701,7 @@ U 1 1 5B008063
 P 1700 4100
 F 0 "TP7" H 1700 4400 50  0000 C BNN
 F 1 "~PwmVH" H 1700 4350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 1700 4100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 1700 4100 50  0001 C CNN
 F 3 "" H 1700 4100 50  0001 C CNN
 	1    1700 4100
 	0    -1   -1   0   
@@ -712,7 +712,7 @@ U 1 1 5B0080F9
 P 1900 4400
 F 0 "TP12" H 1900 4700 50  0000 C BNN
 F 1 "PwmWL" H 1900 4650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 1900 4400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 1900 4400 50  0001 C CNN
 F 3 "" H 1900 4400 50  0001 C CNN
 	1    1900 4400
 	0    -1   -1   0   
@@ -723,7 +723,7 @@ U 1 1 5B008196
 P 1700 4600
 F 0 "TP8" H 1700 4900 50  0000 C BNN
 F 1 "~PwmWH" H 1700 4850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 1700 4600 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 1700 4600 50  0001 C CNN
 F 3 "" H 1700 4600 50  0001 C CNN
 	1    1700 4600
 	0    -1   -1   0   

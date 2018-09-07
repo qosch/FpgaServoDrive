@@ -122,7 +122,7 @@ U 1 1 5AFF1700
 P 3450 3300
 F 0 "TP31" H 3450 3600 50  0000 C BNN
 F 1 "!EncCs/HallB" H 3450 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 3450 3300 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 3450 3300 50  0001 C CNN
 F 3 "" H 3450 3300 50  0001 C CNN
 	1    3450 3300
 	0    -1   -1   0   
@@ -133,7 +133,7 @@ U 1 1 5AFF1757
 P 5100 3200
 F 0 "TP32" H 5100 3500 50  0000 C BNN
 F 1 "EncMiso/HallC" H 5100 3450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 5100 3200 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 5100 3200 50  0001 C CNN
 F 3 "" H 5100 3200 50  0001 C CNN
 	1    5100 3200
 	0    -1   -1   0   
