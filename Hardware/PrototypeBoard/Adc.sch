@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 13
 Title ""
 Date ""
 Rev ""
@@ -26,13 +26,13 @@ F 3 "" H 4050 3550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 10200 2800 1    60   Input ~ 0
-ADC_IN1
+AdcIn1
 Text HLabel 8800 2800 1    60   Input ~ 0
-ADC_IN2
+AdcIn2
 Text HLabel 7400 2800 1    60   Input ~ 0
-ADC_IN3
+AdcIn3
 Text HLabel 6000 2800 1    60   Input ~ 0
-ADC_IN4
+AdcIn4
 $Comp
 L Device:L L1
 U 1 1 5AFC781F
@@ -100,15 +100,15 @@ F 3 "" H 1350 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1900 3400 0    60   Input ~ 0
-~CS
+~Cs
 Text HLabel 1900 3500 0    60   Input ~ 0
-SCLK
+Sclk
 Text HLabel 1900 3600 0    60   Input ~ 0
-MOSI
+Mosi
 Text HLabel 1900 3700 0    60   Output ~ 0
-MISO
+Miso
 Wire Wire Line
-	2050 3250 3200 3250
+	2050 3250 2150 3250
 Connection ~ 2150 3250
 Connection ~ 2400 3250
 $Comp
@@ -123,13 +123,13 @@ F 3 "" H 3200 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 3400 3200 3400
+	1900 3400 2950 3400
 Wire Wire Line
-	1900 3500 3200 3500
+	1900 3500 2700 3500
 Wire Wire Line
-	1900 3600 3200 3600
+	1900 3600 2450 3600
 Wire Wire Line
-	1900 3700 3200 3700
+	1900 3700 2200 3700
 $Comp
 L Device:C C32
 U 1 1 5AFD651F
@@ -515,13 +515,13 @@ Wire Wire Line
 Wire Wire Line
 	4900 3700 6000 3700
 Wire Wire Line
-	5100 3800 6000 3800
+	5100 3800 5400 3800
 Wire Wire Line
-	6500 3800 7400 3800
+	6500 3800 6800 3800
 Wire Wire Line
-	7900 3800 8800 3800
+	7900 3800 8200 3800
 Wire Wire Line
-	9300 3800 10200 3800
+	9300 3800 9600 3800
 Wire Wire Line
 	5100 3800 5100 3900
 Wire Wire Line
@@ -531,7 +531,7 @@ Wire Wire Line
 	5700 3900 5700 3800
 Connection ~ 5700 3800
 Wire Wire Line
-	6000 3200 6000 3900
+	6000 3200 6000 3700
 Wire Wire Line
 	6500 3900 6500 3800
 Wire Wire Line
@@ -541,7 +541,7 @@ Wire Wire Line
 	7100 3900 7100 3800
 Connection ~ 7100 3800
 Wire Wire Line
-	7400 3200 7400 3900
+	7400 3200 7400 3600
 Wire Wire Line
 	7900 3900 7900 3800
 Wire Wire Line
@@ -551,7 +551,7 @@ Wire Wire Line
 	8500 3900 8500 3800
 Connection ~ 8500 3800
 Wire Wire Line
-	8800 3200 8800 3900
+	8800 3200 8800 3500
 Wire Wire Line
 	9300 3900 9300 3800
 Wire Wire Line
@@ -561,7 +561,7 @@ Wire Wire Line
 	9900 3900 9900 3800
 Connection ~ 9900 3800
 Wire Wire Line
-	10200 3200 10200 3900
+	10200 3200 10200 3400
 $Comp
 L power:GND #PWR060
 U 1 1 5B002B6C
@@ -683,4 +683,52 @@ Wire Wire Line
 	1350 3250 1400 3250
 Wire Wire Line
 	1700 3250 1750 3250
+Wire Wire Line
+	2150 3250 2400 3250
+Wire Wire Line
+	2400 3250 2800 3250
+Wire Wire Line
+	2200 3700 3200 3700
+Wire Wire Line
+	2450 3600 3200 3600
+Wire Wire Line
+	2700 3500 3200 3500
+Wire Wire Line
+	2950 3400 3200 3400
+Wire Wire Line
+	2800 3250 3100 3250
+Wire Wire Line
+	3100 3250 3200 3250
+Wire Wire Line
+	5400 3800 5700 3800
+Wire Wire Line
+	5700 3800 6000 3800
+Wire Wire Line
+	6800 3800 7100 3800
+Wire Wire Line
+	7100 3800 7400 3800
+Wire Wire Line
+	8200 3800 8500 3800
+Wire Wire Line
+	8500 3800 8800 3800
+Wire Wire Line
+	9600 3800 9900 3800
+Wire Wire Line
+	9900 3800 10200 3800
+Wire Wire Line
+	6000 3800 6000 3900
+Wire Wire Line
+	7400 3800 7400 3900
+Wire Wire Line
+	8800 3800 8800 3900
+Wire Wire Line
+	10200 3800 10200 3900
+Wire Wire Line
+	10200 3400 10200 3800
+Wire Wire Line
+	8800 3500 8800 3800
+Wire Wire Line
+	7400 3600 7400 3800
+Wire Wire Line
+	6000 3700 6000 3800
 $EndSCHEMATC

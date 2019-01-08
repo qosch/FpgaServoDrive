@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 13
 Title ""
 Date ""
 Rev ""
@@ -26,19 +26,19 @@ F 3 "" H 4500 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 2800 3500 0    60   Input ~ 0
-Logic_U_L
+LogicUL
 Text HLabel 2800 3700 0    60   Input ~ 0
-~Logic_U_H
+~LogicUH
 Text HLabel 2800 4000 0    60   Input ~ 0
-Logic_V_L
+LogicVL
 Text HLabel 2800 4200 0    60   Input ~ 0
-~Logic_V_H
+~LogicVH
 Text HLabel 2800 4500 0    60   Input ~ 0
-Logic_W_L
+LogicWL
 Text HLabel 2800 4700 0    60   Input ~ 0
-~Logic_W_H
+~LogicWH
 Text HLabel 2800 3200 0    60   Input ~ 0
-Logic_GD_ENA
+LogicGdEna
 $Comp
 L Device:R R23
 U 1 1 56C25790
@@ -66,9 +66,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 2800 3200 2800
 Text HLabel 2800 2800 0    60   Output ~ 0
-~Logic_GD_ERR1
+~LogicGdErr1
 Text HLabel 2800 2600 0    60   Output ~ 0
-~Logic_GD_ERR2
+~LogicGdErr2
 $Comp
 L Device:C C22
 U 1 1 56C25879
@@ -256,11 +256,11 @@ F 3 "" H 4950 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 7300 2300 2    60   Output ~ 0
-Source_U_H
+SourceUH
 Text HLabel 7300 3000 2    60   Output ~ 0
-Source_V_H
+SourceVH
 Text HLabel 7300 3700 2    60   Output ~ 0
-Source_W_H
+SourceWH
 $Comp
 L Device:C C24
 U 1 1 56C26607
@@ -322,13 +322,13 @@ Wire Wire Line
 Wire Wire Line
 	6950 3300 6950 3350
 Text HLabel 6300 4300 2    60   Output ~ 0
-Source_U_L
+SourceUL
 Text HLabel 6300 4800 2    60   Output ~ 0
-Source_V_L
+SourceVL
 Text HLabel 6300 5300 2    60   Output ~ 0
-Source_W_L
+SourceWL
 Text HLabel 6300 5100 2    60   Output ~ 0
-Gate_W_L
+GateWL
 $Comp
 L Device:R R34
 U 1 1 56C2703F
@@ -352,9 +352,9 @@ F 3 "" H 5950 4600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 6300 4600 2    60   Output ~ 0
-Gate_V_L
+GateVL
 Text HLabel 6300 4100 2    60   Output ~ 0
-Gate_U_L
+GateUL
 $Comp
 L Device:R R32
 U 1 1 56C27221
@@ -492,11 +492,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 1300 4050 1300
 Text HLabel 6300 3500 2    60   Output ~ 0
-Gate_W_H
-Text HLabel 6300 2800 2    60   Input ~ 0
-Gate_V_H
+GateWH
+Text HLabel 6300 2800 2    60   Output ~ 0
+GateVH
 Text HLabel 6300 2100 2    60   Output ~ 0
-Gate_U_H
+GateUH
 $Comp
 L power:GND #PWR046
 U 1 1 5AFC4218
@@ -815,11 +815,11 @@ $EndComp
 Wire Wire Line
 	4300 1000 4300 1300
 Text Label 5750 2100 0    60   ~ 0
-Gate_U_H_bR
+GateUHbR
 Text Label 5750 2800 0    60   ~ 0
-Gate_V_H_bR
+GateVHbR
 Text Label 5750 3500 0    60   ~ 0
-Gate_W_H_bR
+GateWHbR
 Text Label 5750 4100 0    60   ~ 0
 Gate_U_L_bR
 Text Label 5750 4600 0    60   ~ 0

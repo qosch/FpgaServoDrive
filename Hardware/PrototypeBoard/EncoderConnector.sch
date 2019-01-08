@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 7 13
 Title ""
 Date ""
 Rev ""
@@ -37,17 +37,17 @@ F 3 "" H 9800 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 9150 2900 2    60   Input ~ 0
-SCLK
+Sclk
 Text HLabel 7550 3000 2    60   Input ~ 0
-~CS
+~Cs
 Text HLabel 4350 3200 2    60   Output ~ 0
-MISO
+Miso
 Text HLabel 5950 3100 2    60   Input ~ 0
-MOSI
+Mosi
 Text HLabel 8650 2900 0    60   Output ~ 0
-HALL_A
+HallA
 Text HLabel 7050 3000 0    60   Output ~ 0
-HALL_B
+HallB
 $Comp
 L Device:Jumper_NC_Dual JP6
 U 1 1 5AFC952B
@@ -104,7 +104,7 @@ F 3 "" H 3850 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 5450 3100 0    60   Output ~ 0
-HALL_C
+HallC
 $Comp
 L PrototypeBoard-rescue:TEST TP33
 U 1 1 5AFF16A3

@@ -1,0 +1,188 @@
+EESchema Schematic File Version 4
+LIBS:PrototypeBoard-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PrototypeBoard-rescue:GNDPWR #PWR?
+U 1 1 56C10B12
+P 3100 4100
+F 0 "#PWR?" H 3100 3900 50  0001 C CNN
+F 1 "GNDPWR" H 3100 3970 50  0000 C CNN
+F 2 "" H 3100 4050 50  0000 C CNN
+F 3 "" H 3100 4050 50  0000 C CNN
+	1    3100 4100
+	1    0    0    -1  
+$EndComp
+Text HLabel 3200 2900 2    60   Output ~ 0
+PowerPhase
+Text HLabel 2700 2400 0    60   Input ~ 0
+GateH
+Text HLabel 2700 3600 0    60   Input ~ 0
+GateL
+Text HLabel 2700 3900 0    60   Input ~ 0
+SourceL
+Text HLabel 2700 2700 0    60   Input ~ 0
+SourceH
+$Comp
+L power:+BATT #PWR?
+U 1 1 56C3D47F
+P 3100 2100
+F 0 "#PWR?" H 3100 1950 50  0001 C CNN
+F 1 "+BATT" H 3100 2240 50  0000 C CNN
+F 2 "" H 3100 2100 50  0000 C CNN
+F 3 "" H 3100 2100 50  0000 C CNN
+	1    3100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PrototypeBoard-rescue:TEST TP?
+U 1 1 5B008CF2
+P 3100 2900
+F 0 "TP?" H 3100 3200 50  0000 C BNN
+F 1 "Phase" H 3100 3150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 3100 2900 50  0001 C CNN
+F 3 "" H 3100 2900 50  0001 C CNN
+	1    3100 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B00A350
+P 3100 4950
+F 0 "C?" H 3125 5050 50  0000 L CNN
+F 1 "4.7μ, 50V" H 3125 4850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3138 4800 50  0001 C CNN
+F 3 "" H 3100 4950 50  0001 C CNN
+	1    3100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B00A447
+P 3500 4950
+F 0 "C?" H 3525 5050 50  0000 L CNN
+F 1 "100n" H 3525 4850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3538 4800 50  0001 C CNN
+F 3 "" H 3500 4950 50  0001 C CNN
+	1    3500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B00A488
+P 2700 4950
+F 0 "C?" H 2725 5050 50  0000 L CNN
+F 1 "100n" H 2725 4850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2738 4800 50  0001 C CNN
+F 3 "" H 2700 4950 50  0001 C CNN
+	1    2700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L PrototypeBoard-rescue:GNDPWR #PWR?
+U 1 1 5B00BA7D
+P 3100 5300
+F 0 "#PWR?" H 3100 5100 50  0001 C CNN
+F 1 "GNDPWR" H 3100 5170 50  0000 C CNN
+F 2 "" H 3100 5250 50  0000 C CNN
+F 3 "" H 3100 5250 50  0000 C CNN
+	1    3100 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2600 3100 2700
+Wire Wire Line
+	3100 2900 3200 2900
+Connection ~ 3100 2900
+Wire Wire Line
+	3100 2100 3100 2200
+Wire Wire Line
+	2700 5200 3100 5200
+Wire Wire Line
+	2700 4700 3100 4700
+Wire Wire Line
+	2700 4800 2700 4700
+Wire Wire Line
+	2700 5200 2700 5100
+Wire Wire Line
+	3100 5100 3100 5200
+Connection ~ 3100 5200
+Wire Wire Line
+	3100 4600 3100 4700
+Connection ~ 3100 4700
+Wire Wire Line
+	3500 5200 3500 5100
+Wire Wire Line
+	3500 4700 3500 4800
+$Comp
+L power:+BATT #PWR?
+U 1 1 5B00C18C
+P 3100 4600
+F 0 "#PWR?" H 3100 4450 50  0001 C CNN
+F 1 "+BATT" H 3100 4740 50  0000 C CNN
+F 2 "" H 3100 4600 50  0000 C CNN
+F 3 "" H 3100 4600 50  0000 C CNN
+	1    3100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_SGD Q?
+U 1 1 5B00718F
+P 3000 2400
+F 0 "Q?" H 3200 2450 50  0000 L CNN
+F 1 "Q_NMOS_SGD" H 3200 2350 50  0000 L CNN
+F 2 "libs:TDSON-8_FL" H 3200 2500 50  0001 C CNN
+F 3 "" H 3000 2400 50  0001 C CNN
+	1    3000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_SGD Q?
+U 1 1 5B00724E
+P 3000 3600
+F 0 "Q?" H 3200 3650 50  0000 L CNN
+F 1 "Q_NMOS_SGD" H 3200 3550 50  0000 L CNN
+F 2 "libs:TDSON-8_FL" H 3200 3700 50  0001 C CNN
+F 3 "" H 3000 3600 50  0001 C CNN
+	1    3000 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2400 2800 2400
+Wire Wire Line
+	2700 2700 3100 2700
+Connection ~ 3100 2700
+Wire Wire Line
+	2700 3600 2800 3600
+Wire Wire Line
+	3100 2900 3100 3400
+Wire Wire Line
+	3100 5200 3500 5200
+Wire Wire Line
+	3100 5200 3100 5300
+Wire Wire Line
+	3100 4700 3500 4700
+Wire Wire Line
+	3100 4700 3100 4800
+Wire Wire Line
+	3100 2700 3100 2900
+Wire Wire Line
+	3100 3800 3100 3900
+Connection ~ 3100 3900
+Wire Wire Line
+	3100 3900 3100 4100
+Wire Wire Line
+	2700 3900 3100 3900
+$EndSCHEMATC

@@ -1,0 +1,216 @@
+EESchema Schematic File Version 4
+LIBS:PrototypeBoard-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PrototypeBoard-rescue:TLI4970-D025T4 U?
+U 1 1 56C11A3C
+P 4450 1200
+AR Path="/56D57CF9/56D58984/56C11A3C" Ref="U?"  Part="1" 
+AR Path="/56D57CF9/5C37D1A6/56C11A3C" Ref="U?"  Part="1" 
+F 0 "U?" H 3750 1350 60  0000 C CNN
+F 1 "TLI4970-D025T4" H 4450 1200 60  0000 C CNN
+F 2 "libs:PG-TISON-8-1" H 4450 1200 60  0001 C CNN
+F 3 "" H 4450 1200 60  0000 C CNN
+	1    4450 1200
+	1    0    0    -1  
+$EndComp
+Text HLabel 3400 1200 0    60   Input ~ 0
+PowerPhase
+Text HLabel 6700 1200 2    60   Output ~ 0
+PowerPhaseMeasured
+Wire Wire Line
+	4850 1700 4850 1800
+Wire Wire Line
+	4850 1800 4800 1800
+Wire Wire Line
+	5050 1700 5050 1800
+Wire Wire Line
+	5050 1800 5100 1800
+Text HLabel 4350 1700 3    60   Input ~ 0
+LogicSclk
+Text HLabel 4550 1700 3    60   Output ~ 0
+LogicMiso
+Text HLabel 4150 1700 3    60   Input ~ 0
+~LogicCs
+Text HLabel 3850 1700 3    60   Output ~ 0
+~LogicOcd
+Wire Wire Line
+	3400 1200 3500 1200
+$Comp
+L Device:C C?
+U 1 1 5B20F550
+P 4950 1900
+AR Path="/56D57CF9/56D58984/5B20F550" Ref="C?"  Part="1" 
+AR Path="/56D57CF9/5C37D1A6/5B20F550" Ref="C?"  Part="1" 
+F 0 "C?" H 4975 2000 50  0000 L CNN
+F 1 "100n" H 4975 1800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4988 1750 50  0001 C CNN
+F 3 "" H 4950 1900 50  0000 C CNN
+	1    4950 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B20F609
+P 4950 2200
+AR Path="/56D57CF9/56D58984/5B20F609" Ref="C?"  Part="1" 
+AR Path="/56D57CF9/5C37D1A6/5B20F609" Ref="C?"  Part="1" 
+F 0 "C?" H 4975 2300 50  0000 L CNN
+F 1 "1μ" H 4975 2100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4988 2050 50  0001 C CNN
+F 3 "" H 4950 2200 50  0000 C CNN
+	1    4950 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B20F6E2
+P 4800 2300
+AR Path="/56D57CF9/56D58984/5B20F6E2" Ref="#PWR?"  Part="1" 
+AR Path="/56D57CF9/5C37D1A6/5B20F6E2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 2050 50  0001 C CNN
+F 1 "GND" H 4800 2150 50  0000 C CNN
+F 2 "" H 4800 2300 50  0000 C CNN
+F 3 "" H 4800 2300 50  0000 C CNN
+	1    4800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5B20F72E
+P 5100 2300
+AR Path="/56D57CF9/56D58984/5B20F72E" Ref="#PWR?"  Part="1" 
+AR Path="/56D57CF9/5C37D1A6/5B20F72E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5100 2150 50  0001 C CNN
+F 1 "+3.3V" H 5100 2440 50  0000 C CNN
+F 2 "" H 5100 2300 50  0000 C CNN
+F 3 "" H 5100 2300 50  0000 C CNN
+	1    5100 2300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4800 1800 4800 1900
+Wire Wire Line
+	5100 1800 5100 1900
+Connection ~ 5100 1900
+Connection ~ 4800 1900
+Connection ~ 4800 2200
+Connection ~ 5100 2200
+Wire Wire Line
+	5100 1900 5100 2200
+Wire Wire Line
+	4800 1900 4800 2200
+Wire Wire Line
+	4800 2200 4800 2300
+Wire Wire Line
+	5100 2200 5100 2300
+$Comp
+L Device:R R?
+U 1 1 5C36FA9D
+P 5800 1550
+AR Path="/56D57CF9/5C36FA9D" Ref="R?"  Part="1" 
+AR Path="/56D57CF9/56D58984/5C36FA9D" Ref="R?"  Part="1" 
+AR Path="/56D57CF9/5C37D1A6/5C36FA9D" Ref="R?"  Part="1" 
+F 0 "R?" V 5880 1550 50  0000 C CNN
+F 1 "1.5k" V 5800 1550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5730 1550 50  0001 C CNN
+F 3 "" H 5800 1550 50  0001 C CNN
+	1    5800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C36FAA4
+P 5600 2050
+AR Path="/56D57CF9/5C36FAA4" Ref="C?"  Part="1" 
+AR Path="/56D57CF9/56D58984/5C36FAA4" Ref="C?"  Part="1" 
+AR Path="/56D57CF9/5C37D1A6/5C36FAA4" Ref="C?"  Part="1" 
+F 0 "C?" H 5625 2150 50  0000 L CNN
+F 1 "100n" H 5625 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5638 1900 50  0001 C CNN
+F 3 "" H 5600 2050 50  0001 C CNN
+	1    5600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C36FAAB
+P 5600 2250
+AR Path="/56D57CF9/5C36FAAB" Ref="#PWR?"  Part="1" 
+AR Path="/56D57CF9/56D58984/5C36FAAB" Ref="#PWR?"  Part="1" 
+AR Path="/56D57CF9/5C37D1A6/5C36FAAB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5600 2000 50  0001 C CNN
+F 1 "GND" H 5600 2100 50  0000 C CNN
+F 2 "" H 5600 2250 50  0001 C CNN
+F 3 "" H 5600 2250 50  0001 C CNN
+	1    5600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C36FAB1
+P 5800 2050
+AR Path="/56D57CF9/5C36FAB1" Ref="R?"  Part="1" 
+AR Path="/56D57CF9/56D58984/5C36FAB1" Ref="R?"  Part="1" 
+AR Path="/56D57CF9/5C37D1A6/5C36FAB1" Ref="R?"  Part="1" 
+F 0 "R?" V 5880 2050 50  0000 C CNN
+F 1 "DNP" V 5800 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5730 2050 50  0001 C CNN
+F 3 "" H 5800 2050 50  0001 C CNN
+	1    5800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C36FAB8
+P 5800 2250
+AR Path="/56D57CF9/5C36FAB8" Ref="#PWR?"  Part="1" 
+AR Path="/56D57CF9/56D58984/5C36FAB8" Ref="#PWR?"  Part="1" 
+AR Path="/56D57CF9/5C37D1A6/5C36FAB8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5800 2000 50  0001 C CNN
+F 1 "GND" H 5800 2100 50  0000 C CNN
+F 2 "" H 5800 2250 50  0001 C CNN
+F 3 "" H 5800 2250 50  0001 C CNN
+	1    5800 2250
+	1    0    0    -1  
+$EndComp
+Text Notes 5400 2550 0    60   ~ 0
+1kHz low pass
+Wire Wire Line
+	5600 2200 5600 2250
+Wire Wire Line
+	5800 2200 5800 2250
+Wire Wire Line
+	5600 1900 5600 1800
+Wire Wire Line
+	5600 1800 5800 1800
+Wire Wire Line
+	5800 1800 5800 1900
+Wire Wire Line
+	5400 1200 5800 1200
+Wire Wire Line
+	5800 1400 5800 1200
+Connection ~ 5800 1200
+Wire Wire Line
+	5800 1200 6700 1200
+Wire Wire Line
+	5800 1700 5800 1800
+Connection ~ 5800 1800
+Text HLabel 6700 1800 2    60   Output ~ 0
+AnalogPhaseVoltageFiltered
+Wire Wire Line
+	5800 1800 6700 1800
+$EndSCHEMATC
